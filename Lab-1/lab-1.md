@@ -5,3 +5,10 @@
 ## 1.[Configurar el entorno de trabajo](#) ✔
 
 <ol type="a">
+
+
+<li>¿Cual es la dirección de red y de broadcast de un host que tiene una ip 192.168.10.10/30 .? </li>
+
+### Respuesta:
+
+la direccion de
