@@ -78,6 +78,7 @@
 |Alternate DNS|	76.223.122.150||
 |DNS Quad9|9.9.9.9||
 |AdGuard DNS|94.140.14.14||
+|AdGuard DNS|94.140.15.15||
 
 ## 6. [Capacidad del canal](#) ✔
 |Servidor|Ping/ms|Down/MB|Up/MB|
