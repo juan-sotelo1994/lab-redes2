@@ -47,13 +47,13 @@
 |Parámetro|Valor|
 |--|--:|
 |__Subnet__|192.168.254.0/24|
-|IPv4|192.168.254.104|
+|IPv4|192.168.10.13|
 |Subnet Mask decimal|24|
 |Subnet Mask octetos|255.255.255.0|
 |Número de direcciones de Host|254|
 |Rango de direcciones de Host|192.168.254.1-254|
 |IP Broadcast|192.168.254.255|
-|Server DHCP|192.168.254.254|
+|Server DHCP|192.168.254.254| 
 |Server DNS|8.8.8.8|
 
 ## 4. [Caracterización de la puerta de enlace](#) ✔
@@ -71,7 +71,8 @@
 |--|--|--|
 |DNS Google|8.8.8.8||
 |DNS Cloudflare|1.1.1.1||
-|OpenDNS|||
+|OpenDNS|208.67.222.222||
+|OpenDNS|208.67.220.220||
 |Alternate DNS|||
 |DNS Quad9|||
 |AdGuard DNS|||
