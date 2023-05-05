@@ -1,4 +1,4 @@
-# Laboratorio de redes 1 
+# Laboratorio de redes 2 
 <p><code>Laboratorio 1 de redes 2</code></p>
 <p>Realizado <code>Juan David Sotelo</code>
 
