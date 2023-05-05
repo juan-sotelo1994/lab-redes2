@@ -70,10 +70,12 @@
 |Servidor|IP|Tiempo promedio/ms|
 |--|--|--|
 |DNS Google|8.8.8.8||
+|DNS Google|8.8.4.4||
 |DNS Cloudflare|1.1.1.1||
 |OpenDNS|208.67.222.222||
 |OpenDNS|208.67.220.220||
-|Alternate DNS|||
+|Alternate DNS|	76.76.19.19||
+|Alternate DNS|	76.223.122.150||
 |DNS Quad9|||
 |AdGuard DNS|||
 
