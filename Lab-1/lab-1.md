@@ -66,7 +66,7 @@
 |Subnet Mask octetos|255.255.255.255|
 |Número de direcciones de Host|2|
 |Rango de direcciones de Host|192.168.125.25-26|
-|IP Broadcast|192.168.10.255|
+|IP Broadcast|192.168.125.25|
 |Server DHCP inicial |inactivo| 
 |Server DNS|8.8.8.8|
 |Server DNS|8.8.4.4|
