@@ -76,26 +76,26 @@
 ## 4. [Caracterización de la puerta de enlace](#) ✔
 |Parámetro|Valor|
 |--|--:|
-|Número de Entradas en la tabla ARP |11|
-|IPv4 Gateway|192.168.254.254|
-|MAC Gateway|3C-A0-67-E8-D8-77|
-|ISP|Dobleclick Software E Ingeneria|
-|[IP Publica][5]|138.0.90.4|
+|Número de Entradas en la tabla ARP |10|
+|IPv4 Gateway|192.168.10.1|
+|MAC Gateway|98-da-c4-63-c7-8e|
+|ISP|Sistemas Palacios|
+|[IP Publica][5]|8.242.185.21|
 |Sistema Autónomo|AS264646|
 
 ## 5. [Retardo de la red](#) ✔
 |Servidor|IP|Tiempo promedio/ms|
 |--|--|--|
-|DNS Google|8.8.8.8||
-|DNS Google|8.8.4.4||
-|DNS Cloudflare|1.1.1.1||
-|OpenDNS|208.67.222.222||
-|OpenDNS|208.67.220.220||
-|Alternate DNS|	76.76.19.19||
-|Alternate DNS|	76.223.122.150||
-|DNS Quad9|9.9.9.9||
-|AdGuard DNS|94.140.14.14||
-|AdGuard DNS|94.140.15.15||
+|DNS Google|8.8.8.8|18ms|
+|DNS Google|8.8.4.4|15ms|
+|DNS Cloudflare|1.1.1.1|15ms|
+|OpenDNS|208.67.222.222|126ms|
+|OpenDNS|208.67.220.220|121ms|
+|Alternate DNS|	76.76.19.19|16ms|
+|Alternate DNS|	76.223.122.150|17ms|
+|DNS Quad9|9.9.9.9|18ms|
+|AdGuard DNS|94.140.14.14|130ms|
+|AdGuard DNS|94.140.15.15|130ms|
 
 ## 6. [Capacidad del canal](#) ✔
 |Servidor|Ping/ms|Down/MB|Up/MB|
