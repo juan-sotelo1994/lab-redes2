@@ -100,27 +100,27 @@
 ## 6. [Capacidad del canal](#) ✔
 |Servidor|Ping/ms|Down/MB|Up/MB|
 |--|:--:|--:|--:|
-|[speed test][1]|39|96.4|69.2|
-|[Netflix][2]|14|78|67|
-|[Claro][3]|13|74|31|
-|[nperf][4]|6.7|93.6|54.98|
+|[speed test][1]|21|24.05|24.14|
+|[Netflix][2]|32|80|60|
+|[Claro][3]|14  |24.9|24.8|
+|[nperf][4]|18.00|24.67|24.57|
 
 
 ## 7. [Distancia desde el host](#) ✔
 |Servidor|Ping/ms|Numero de Saltos|
 |--|:--:|--:|
-|google.com|14|10|
-|GMail.com|15|9|
-|YouTube.com|14|10|
-|dns.google|15|9|
-|aws.amazon.com|154|17|
-|portal.azure.com|13|11|
-|login.live.com|88|22|
-|Facebook.com|120|11|
-|c.ns.WhatsApp.net|151|12|
+|google.com|17|13|
+|GMail.com|21|13|
+|YouTube.com|18|18|
+|dns.google|38|18|
+|aws.amazon.com|15|17|
+|portal.azure.com|15|13|
+|login.live.com|98|20|
+|Facebook.com|10|13|
+|c.ns.WhatsApp.net|132|14|
 |claro.com.co|151|12|
-|platzi.com|122|11|
-|rappi.com.co|184|30|
+|platzi.com|75|15|
+|rappi.com.co|145|30|
 
 
 ## 8. [Diagrama de Red](#) ✔
