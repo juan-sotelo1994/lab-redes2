@@ -32,7 +32,7 @@
 
 ### Respuesta:
 
-## 2. [Caracterización de los adaptadores](#) ✔
+## 2. [Caracterización de los adaptadores del compu](#) ✔
 |parametro||valor|
 |--|:--:|--:|
 |Número de adaptadores Físicos|-->|4|
