@@ -38,22 +38,23 @@
 |Número de adaptadores Físicos|-->|4|
 |Número de adaptadores Virtuales|-->|1|
 |Tipo de Adaptador principal|-->|ethernet-W-fi|
-|Fabricante del Adaptador principal|-->|Cambiar esto|
-|Código MAC del fabricante|-->|Router 3C-A0-67|
-|MAC|-->|Router 3C-A0-67-E8-D8-77|
+|Fabricante del Adaptador principal|-->|Tp-link wireles N Routers|
+|Código MAC del fabricante|-->|WR940N v6 00000000|
+|MAC|-->|98-DA-C4-63-C7-8E|
 
 
 ## 3. [Caracterización de la red](#) ✔
 |Parámetro|Valor|
 |--|--:|
-|__Subnet__|192.168.254.0/24|
-|IPv4|192.168.10.13|
+|__Subnet__|192.168.10.0/24|
+|IPv4|192.168.10.128|
 |Subnet Mask decimal|24|
 |Subnet Mask octetos|255.255.255.0|
 |Número de direcciones de Host|254|
-|Rango de direcciones de Host|192.168.254.1-254|
-|IP Broadcast|192.168.254.255|
-|Server DHCP|192.168.254.254| 
+|Rango de direcciones de Host|192.168.10.100-199|
+|IP Broadcast|192.168.10.255|
+|Server DHCP inicial |192.168.10.100| 
+|Server DHCP final |192.168.10.199| 
 |Server DNS|8.8.8.8|
 
 ## 4. [Caracterización de la puerta de enlace](#) ✔
