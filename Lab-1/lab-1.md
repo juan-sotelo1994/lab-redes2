@@ -43,7 +43,7 @@
 |MAC|-->|98-DA-C4-63-C7-8E|
 
 
-## 3. [Caracterización de la red](#) ✔
+## 3. [Caracterización de la red Interna](#) ✔
 |Parámetro|Valor|
 |--|--:|
 |__Subnet__|192.168.10.0/24|
@@ -56,6 +56,22 @@
 |Server DHCP inicial |192.168.10.100| 
 |Server DHCP final |192.168.10.199| 
 |Server DNS|8.8.8.8|
+
+## 3. [Caracterización de la red provedor](#) ✔
+|Parámetro|Valor|
+|--|--:|
+|__Subnet__|192.168.10.0/24|
+|IPv4|192.168.10.128|
+|Subnet Mask decimal|24|
+|Subnet Mask octetos|255.255.255.255|
+|Número de direcciones de Host|2|
+|Rango de direcciones de Host|192.168.125.25-26|
+|IP Broadcast|192.168.10.255|
+|Server DHCP inicial |inactivo| 
+|Server DNS|8.8.8.8|
+|Server DNS|8.8.4.4|
+
+
 
 ## 4. [Caracterización de la puerta de enlace](#) ✔
 |Parámetro|Valor|
