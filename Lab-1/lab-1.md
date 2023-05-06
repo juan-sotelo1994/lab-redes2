@@ -60,8 +60,8 @@
 ## 3. [Caracterización de la red provedor](#) ✔
 |Parámetro|Valor|
 |--|--:|
-|__Subnet__|192.168.10.0/24|
-|IPv4|192.168.10.128|
+|__Subnet__|192.168.1.0/24|
+|IPv4|192.168.1.2|
 |Subnet Mask decimal|24|
 |Subnet Mask octetos|255.255.255.255|
 |Número de direcciones de Host|2|
