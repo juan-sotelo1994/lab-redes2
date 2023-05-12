@@ -139,8 +139,3 @@
 - Incluya los saltos conocidos incluyendo el equipo de borde de su ISP.
 
 [![isp.png](https://i.postimg.cc/G3ytPnFf/isp.png)](https://postimg.cc/rzqqcbYG)
-
-## 9. [Preguntas de conocimiento](#) ✔
-1. Cual es la dirección de red y de broadcast de un host que tiene una ip 192.168.10.10/30.
-1. Cuantos equipos o.
-1. Incluya los saltos conocidos incluyendo el equipo de borde de su ISP.
