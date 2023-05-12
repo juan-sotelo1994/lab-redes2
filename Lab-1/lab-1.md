@@ -35,12 +35,12 @@
 ## 2. [Caracterización de los adaptadores del compu](#) ✔
 |parametro||valor|
 |--|:--:|--:|
-|Número de adaptadores Físicos|-->|4|
-|Número de adaptadores Virtuales|-->|1|
+|Número de adaptadores Físicos|-->|2|
+|Número de adaptadores Virtuales|-->|0|
 |Tipo de Adaptador principal|-->|ethernet-W-fi|
-|Fabricante del Adaptador principal|-->|Tp-link wireles N Routers|
-|Código MAC del fabricante|-->|WR940N v6 00000000|
-|MAC|-->|98-DA-C4-63-C7-8E|
+|Fabricante del Adaptador principal|-->|wifiiakdsnjs|
+|Código MAC del fabricante|-->|28-80-23-D4-78-44|
+|MAC|-->|80-86-F2-7C-2E-BE|
 
 
 ## 3. [Caracterización de la red Interna](#) ✔
