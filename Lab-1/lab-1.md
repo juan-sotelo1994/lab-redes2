@@ -126,11 +126,16 @@
 ## 8. [Diagrama de Red](#) ✔
 - Realice un diagrama topológico de la red que le ofrece conectividad a internet.
 
-### Respuesta
+### Respuesta:
 
 [![REDES.png](https://i.postimg.cc/J0wnwsQX/REDES.png)](https://postimg.cc/r0JcxF3y)
 
 - Incluya todos los detalles de la red de area local a la que se encuentra conectado.
+
+1. Tenemos una red en dos inicialmente secundaria en la casa administrada por un Router Tp-link (TL-WR940N), con el cual abarca una mayor amplitud para la señal.
+2. Tenemos un router el cual es de la empresa que es un router G-Pon el cual da aceso de red a internet y se conecta a la nat del poste por medio de fibra-optica.
+3. de la nat se conecta directamente a la olt que distribuye la conexion a internet. 
+
 - Incluya los saltos conocidos incluyendo el equipo de borde de su ISP.
 
 ## 9. [Preguntas de conocimiento](#) ✔
