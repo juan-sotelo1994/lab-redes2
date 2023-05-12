@@ -125,6 +125,11 @@
 
 ## 8. [Diagrama de Red](#) ✔
 - Realice un diagrama topológico de la red que le ofrece conectividad a internet.
+
+### Respuesta
+
+[![REDES.png](https://i.postimg.cc/J0wnwsQX/REDES.png)](https://postimg.cc/r0JcxF3y)
+
 - Incluya todos los detalles de la red de area local a la que se encuentra conectado.
 - Incluya los saltos conocidos incluyendo el equipo de borde de su ISP.
 
