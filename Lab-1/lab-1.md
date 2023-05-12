@@ -38,7 +38,7 @@
 |Número de adaptadores Físicos|-->|2|
 |Número de adaptadores Virtuales|-->|0|
 |Tipo de Adaptador principal|-->|ethernet-W-fi|
-|Fabricante del Adaptador principal|-->|wifiiakdsnjs|
+|Fabricante del Adaptador principal|-->|Intel Corporation|
 |Código MAC del fabricante|-->|28-80-23-D4-78-44|
 |MAC|-->|80-86-F2-7C-2E-BE|
 
