@@ -2,13 +2,13 @@
 
 # Practica de laboratorio 02
 
-## Objetivos 
+## Objetivos
 
 ### Objetivo General
 Proporcionar el conocimiento y generar las habilidades necesarias en la configuración y gestión de dispositivos de redes.
 
 ### Objetivos Específicos:
-- Conocer los números necesarios para configurar el direccionamiento de una red de area local. :+1: 
+- Conocer los números necesarios para configurar el direccionamiento de una red de area local.  
 
 ---
 
