@@ -31,10 +31,13 @@ Para todos los efectos:
 <li>¿Como se llama la interfaz donde se conecta los cables UTP.?</li>
    
    ### Respuesta
+     Adaptador de Ethernet Conocido como puerto de internet.
 
-
+[![v4-460px-Connect-an-Ethernet-Cable-to-a-Laptop-Step-2.jpg](https://i.postimg.cc/8k9B5yfX/v4-460px-Connect-an-Ethernet-Cable-to-a-Laptop-Step-2.jpg)](https://postimg.cc/Hj07v92b)
     
 <li>¿Que significa POE IN y POE OUT en una interfaz?.</li>
+
+
 <li>¿Que utilidad tiene la interfaz USB en los Enrutadores?.</li>
 <li>¿Que utilidad tiene la interfaz SFP en los Enrutadores?.</li>
 <li>¿Que tipos de interface Ethernet se pueden encontrar en los Enrutadores?.</li>
