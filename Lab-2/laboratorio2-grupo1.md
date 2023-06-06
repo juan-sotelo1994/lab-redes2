@@ -32,6 +32,9 @@ Para todos los efectos:
 
 <ol type="a">
 <li>¿Como se llama la interfaz donde se conecta los cables UTP.?</li>
+   
+   ### Respuesta
+    
 <li>¿Que significa POE IN y POE OUT en una interfaz?.</li>
 <li>¿Que utilidad tiene la interfaz USB en los Enrutadores?.</li>
 <li>¿Que utilidad tiene la interfaz SFP en los Enrutadores?.</li>
