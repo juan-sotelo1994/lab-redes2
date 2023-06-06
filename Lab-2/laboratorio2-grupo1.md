@@ -19,14 +19,11 @@ Para todos los efectos:
 
 
 ## 1. [Configurar el entorno de trabajo](#) ✔
-1. Cree si no existe el repositorio [__"REDES-2"__][1_2] en su cuenta de github.
-1. Agregue un archivo llamado [__"laboratorio_2.md"__][1_2] a este repositorio.
-1. Invite a los compañeros de grupo como colaboradores en este repositorio.
-1. Documente cada uno de los items a continuación con capturas de pantalla y código .
+1. Cree si no existe el repositorio [__"REDES-2"__][1_2] en su cuenta de github. ✔
+1. Agregue un archivo llamado [__"laboratorio_2.md"__][1_2] a este repositorio. ✔
+1. Invite a los compañeros de grupo como colaboradores en este repositorio. ✔
+1. Documente cada uno de los items a continuación con capturas de pantalla y código . ✔
 
->Nota: recuerde que los [parámetros](#parámetros) son validos en todo el laboratorio.
-
-[1_2]:https://github.com/GiancarloBenavides
 
 ## 2. [Preguntas reflexivas de ambientación](#) ✔
 
@@ -34,6 +31,8 @@ Para todos los efectos:
 <li>¿Como se llama la interfaz donde se conecta los cables UTP.?</li>
    
    ### Respuesta
+
+
     
 <li>¿Que significa POE IN y POE OUT en una interfaz?.</li>
 <li>¿Que utilidad tiene la interfaz USB en los Enrutadores?.</li>
