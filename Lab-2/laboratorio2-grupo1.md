@@ -30,14 +30,14 @@ Para todos los efectos:
 <ol type="a">
 <li>¿Como se llama la interfaz donde se conecta los cables UTP.?</li>
    
-   ### Respuesta
+   ### Respuesta:
      Adaptador de Ethernet Conocido como puerto de internet.
 
 [![v4-460px-Connect-an-Ethernet-Cable-to-a-Laptop-Step-2.jpg](https://i.postimg.cc/8k9B5yfX/v4-460px-Connect-an-Ethernet-Cable-to-a-Laptop-Step-2.jpg)](https://postimg.cc/Hj07v92b)
     
 <li>¿Que significa POE IN y POE OUT en una interfaz?.</li>
 
-  ### Respuesta
+  ### Respuesta:
 
   ## Poe input 
   significa que el router o dispositivos puede tomar energía de la fuente de PoE y brindar energia desde su mismo puerto utilizando su propia alimentacion de energia.
@@ -50,7 +50,7 @@ Para todos los efectos:
 
 <li>¿Que utilidad tiene la interfaz USB en los Enrutadores?.</li>
 
-  ### Respuesta
+  ### Respuesta:
 
 Podemos usar el puerto USB en un Enrutador para los Siguientes fines:
 
@@ -64,12 +64,29 @@ Podemos usar el puerto USB en un Enrutador para los Siguientes fines:
  
  <li>¿Que utilidad tiene la interfaz SFP en los Enrutadores?.</li>
   
-  ### Respuesta 
+  ### Respuesta: 
  Los puertos SFP permiten que los switches Gigabit se conecten a una amplia variedad de cables de fibra óptica y Ethernet para extender la funcionalidad de conmutación a través de la red.
 
+Los SFP son equipos de entrada/salida intercambiable en caliente, utilizados principalmente en switches de red y de almacenamiento; Permiten que el switch se conecte a cables de fibra óptica de diferentes tipos – incluyendo modos monomodo y multimodo – y velocidades (1 Gbps, 10Gbps, 40Gbps y 100Gbps), o incluso cables de cobre Ethernet, como CAT5e y CAT6.
+
+[![SFP-SWITCH-1.png](https://i.postimg.cc/7LWVm1Ds/SFP-SWITCH-1.png)](https://postimg.cc/v15fmV4f)
 
 <li>¿Que tipos de interface Ethernet se pueden encontrar en los Enrutadores?.</li>
+
+ ### Respuesta:
+
+ Tenemos tre tipos de interfaces de red que encontramos en un enrutador:
+
+  ## Ethernet: 
+  Es una interfaz de red de área local (LAN) que utiliza el protocolo Ethernet para permitir la transmisión de datos entre dispositivos conectados a la misma red.
+
+  ##  WAN (Wide Area Network):
+  Es una interfaz de red de área amplia que se utiliza para conectar redes a distancia. Las interfaces WAN se utilizan para conectar redes LAN a Internet o a otras redes LAN en diferentes locaciones.
+
+  ## Wi-Fi: 
+  Es una interfaz inalámbrica que permite la transmisión de datos a través de ondas de radio. Los dispositivos Wi-Fi pueden utilizarse para conectar dispositivos a una red LAN o para establecer una conexión de red inalámbrica.
 </ol>
+
 
 ## 3. [Caracterizar el CPE TP-LINK](#) ✔
 |Parámetro||Valor|
