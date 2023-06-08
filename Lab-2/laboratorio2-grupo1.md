@@ -91,13 +91,13 @@ Los SFP son equipos de entrada/salida intercambiable en caliente, utilizados pri
 ## 3. [Caracterizar el CPE TP-LINK](#) ✔
 |Parámetro||Valor|
 |--|:--:|--:|
-|Marca|-->||
-|Referencia|-->||
-|Velocidad de la CPU|-->||
+|Marca|-->|Tp-Link|
+|Referencia|-->|TL-WR940N|
+|Velocidad de la CPU|-->|Single-Core 2.4 GHz: 450 Mbps|
 |Tamaño de la memoria RAM|-->||
 |Sistema Operativo|-->||
-|Tipo de WIFI|-->||
-|Voltaje DC|-->||
+|Tipo de WIFI|-->|Wi-Fi 4 IEEE 802.11n/b/g 2.4 GHz|
+|Voltaje DC|-->|9V ⎓ 0.6 A|
 
 ## 4. [Configurar básica de CPE TP-LINK](#) ✔
 1. Conecte los equipos a la red eléctrica.
