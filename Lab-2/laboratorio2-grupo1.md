@@ -37,6 +37,16 @@ Para todos los efectos:
     
 <li>¿Que significa POE IN y POE OUT en una interfaz?.</li>
 
+  ### Respuesta
+
+  ## Poe input 
+  significa que el router o dispositivos puede tomar energía de la fuente de PoE y brindar energia desde su mismo puerto utilizando su propia alimentacion de energia.
+
+  ## Poe output
+   significa que el router o dispositivo necesita de una fuente alterna para enviar la energia por el medio que se va a usar. 
+
+
+[![poe2.jpg](https://i.postimg.cc/qvKy4cxC/poe2.jpg)](https://postimg.cc/hXSf0dwS) 
 
 <li>¿Que utilidad tiene la interfaz USB en los Enrutadores?.</li>
 <li>¿Que utilidad tiene la interfaz SFP en los Enrutadores?.</li>
