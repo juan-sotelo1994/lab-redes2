@@ -49,7 +49,25 @@ Para todos los efectos:
 [![poe2.jpg](https://i.postimg.cc/qvKy4cxC/poe2.jpg)](https://postimg.cc/hXSf0dwS) 
 
 <li>¿Que utilidad tiene la interfaz USB en los Enrutadores?.</li>
-<li>¿Que utilidad tiene la interfaz SFP en los Enrutadores?.</li>
+
+  ### Respuesta
+
+Podemos usar el puerto USB en un Enrutador para los Siguientes fines:
+
+ ✔ Conectar una impresora USB, y así podrá ser usada por todos los dispositivos de esa red.
+ 
+ ✔ Conectar un pendrive o disco duro y usarlo como almacenamiento compartido en la red, por ejemplo vía FTP o SMB.
+
+ ✔ Conectar un sistema de videovigilancia.
+
+ ✔Actualización del firmware.
+ 
+ <li>¿Que utilidad tiene la interfaz SFP en los Enrutadores?.</li>
+  
+  ### Respuesta 
+ Los puertos SFP permiten que los switches Gigabit se conecten a una amplia variedad de cables de fibra óptica y Ethernet para extender la funcionalidad de conmutación a través de la red.
+
+
 <li>¿Que tipos de interface Ethernet se pueden encontrar en los Enrutadores?.</li>
 </ol>
 
