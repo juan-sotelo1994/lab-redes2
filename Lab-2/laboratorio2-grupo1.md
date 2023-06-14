@@ -93,17 +93,26 @@ Los SFP son equipos de entrada/salida intercambiable en caliente, utilizados pri
 |--|:--:|--:|
 |Marca|-->|Tp-Link|
 |Referencia|-->|TL-WR940N|
-|Velocidad de la CPU|-->|Single-Core 2.4 GHz: 450 Mbps|
-|Tamaño de la memoria RAM|-->||
+|Velocidad de la CPU|-->|580 MHz 32-bit|
+|Tamaño de la memoria RAM|-->|32 MiB|
 |Sistema Operativo|-->||
 |Tipo de WIFI|-->|Wi-Fi 4 IEEE 802.11n/b/g 2.4 GHz|
 |Voltaje DC|-->|9V ⎓ 0.6 A|
 
 ## 4. [Configurar básica de CPE TP-LINK](#) ✔
 1. Conecte los equipos a la red eléctrica.
+[![Whats-App-Image-2023-06-13-at-6-53-41-PM.jpg](https://i.postimg.cc/pdVz4rRk/Whats-App-Image-2023-06-13-at-6-53-41-PM.jpg)](https://postimg.cc/DSDSb2Wb)
 1. [Reiniciar][4_1] el dispositivo a la configuración de fabrica.
+[![Whats-App-Image-2023-06-13-at-6-53-40-PM-1.jpg](https://i.postimg.cc/Vk2PHrqP/Whats-App-Image-2023-06-13-at-6-53-40-PM-1.jpg)](https://postimg.cc/Hr0NrLv6)
 1. Conectar el equipo mediante un patchcord (latiguillo) al equipo y a internet.
+[![Whats-App-Image-2023-06-13-at-6-53-40-PM.jpg](https://i.postimg.cc/Y2XrzSsM/Whats-App-Image-2023-06-13-at-6-53-40-PM.jpg)](https://postimg.cc/DmX327hM)
+
+[![Whats-App-Image-2023-06-13-at-6-53-39-PM.jpg](https://i.postimg.cc/28sVn613/Whats-App-Image-2023-06-13-at-6-53-39-PM.jpg)](https://postimg.cc/crcxSdMN)
 1. [Acceder][4_2] al dispositivo via protocolo http desde el navegador web.
+[![Whats-App-Image-2023-06-13-at-6-55-13-PM.jpg](https://i.postimg.cc/zvp48347/Whats-App-Image-2023-06-13-at-6-55-13-PM.jpg)](https://postimg.cc/H8c6tWY8)
+
+[![Whats-App-Image-2023-06-13-at-6-57-01-PM.jpg](https://i.postimg.cc/Qx9qXFLM/Whats-App-Image-2023-06-13-at-6-57-01-PM.jpg)](https://postimg.cc/HVmMzskG)
+
 1. Cambiar el nombre del dispositivo para identificarlo.
 1. Configurar la direccionamiento WAN para lograr conectividad con la red externa.
 1. Configurar la direccionamiento LAN con una IP privada, clase C para lograr conectividad con la red interna.
