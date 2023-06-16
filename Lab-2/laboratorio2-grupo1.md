@@ -109,18 +109,48 @@ Los SFP son equipos de entrada/salida intercambiable en caliente, utilizados pri
 
 [![Whats-App-Image-2023-06-13-at-6-53-39-PM.jpg](https://i.postimg.cc/28sVn613/Whats-App-Image-2023-06-13-at-6-53-39-PM.jpg)](https://postimg.cc/crcxSdMN)
 1. [Acceder][4_2] al dispositivo via protocolo http desde el navegador web.
+
 [![Whats-App-Image-2023-06-13-at-6-55-13-PM.jpg](https://i.postimg.cc/zvp48347/Whats-App-Image-2023-06-13-at-6-55-13-PM.jpg)](https://postimg.cc/H8c6tWY8)
 
 [![Whats-App-Image-2023-06-13-at-6-57-01-PM.jpg](https://i.postimg.cc/Qx9qXFLM/Whats-App-Image-2023-06-13-at-6-57-01-PM.jpg)](https://postimg.cc/HVmMzskG)
 
 1. Cambiar el nombre del dispositivo para identificarlo.
+
+[![Whats-App-Image-2023-06-13-at-9-07-46-PM.jpg](https://i.postimg.cc/d0XzQ4wx/Whats-App-Image-2023-06-13-at-9-07-46-PM.jpg)](https://postimg.cc/p9f0qQ9f)
 1. Configurar la direccionamiento WAN para lograr conectividad con la red externa.
+
+[![Whats-App-Image-2023-06-13-at-9-31-09-PM.jpg](https://i.postimg.cc/25b28YH4/Whats-App-Image-2023-06-13-at-9-31-09-PM.jpg)](https://postimg.cc/3yhgnsQR)
+
+[![Whats-App-Image-2023-06-13-at-9-32-40-PM.jpg](https://i.postimg.cc/bY9cj0Sq/Whats-App-Image-2023-06-13-at-9-32-40-PM.jpg)](https://postimg.cc/pyr1fFBS)
+
 1. Configurar la direccionamiento LAN con una IP privada, clase C para lograr conectividad con la red interna.
+
+[![1.png](https://i.postimg.cc/ZKPPTcrK/1.png)](https://postimg.cc/crHthf9V)
+
 1. Configurar el [DHCP][dhcp] para que asigne 20 direcciones IP entre [G](#parámetros).200-[G](#parámetros).220.
+
+[![1.png](https://i.postimg.cc/wMLrxmV8/1.png)](https://postimg.cc/BPZpMtkM)
+
 1. Configurar la [WLAN][wlan] de nombre y [PSK](psk) "REDES_4[G](#parámetros)" para lograr conectividad inalámbrica.
+
+[![1.png](https://i.postimg.cc/prrDqbm0/1.png)](https://postimg.cc/ctqgLzMY)
+
+[![1.png](https://i.postimg.cc/wMRnZrPV/1.png)](https://postimg.cc/wRHWsw9y)
+
+Escogimos el canal 1 debido a que tiene menos trafico para que la red no tenga conflicto con otras señales.
+
 1. Realizar pruebas [PING][4_3] a DNS Cloudflare desde el dispositivo.
+
+[![Whats-App-Image-2023-06-13-at-10-07-30-PM.jpg](https://i.postimg.cc/1RV0nPZt/Whats-App-Image-2023-06-13-at-10-07-30-PM.jpg)](https://postimg.cc/c6Zt2pCy)
+
 1. Realizar pruebas [PING][4_3] a DNS Cloudflare desde el computador conectado por UTP.
+
+[![1.png](https://i.postimg.cc/kGyY0dsW/1.png)](https://postimg.cc/rRK943vp)
+
 1. Realizar pruebas [TRACEROUTE][4_4] a DNS Google desde el router.
+
+[![1.png](https://i.postimg.cc/rwR27D6T/1.png)](https://postimg.cc/87GY6PPX)
+
 1. Realizar pruebas [TRACEROUTE][4_4] a DNS Google desde el Computador conectado por UTP.
 1. Realizar pruebas [TRACEROUTE][4_4] a DNS Google desde un dispositivo conectado por WIFI.
 1. Habilitar la gestión remota del dispositivo desde cualquier IP.
