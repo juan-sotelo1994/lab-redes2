@@ -1,4 +1,4 @@
-# Telematics
+# Telematica
 
 # Practica de laboratorio 02
 
