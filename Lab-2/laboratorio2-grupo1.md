@@ -1,4 +1,4 @@
-# Telematica
+# Telema
 
 # Practica de laboratorio 01
 
