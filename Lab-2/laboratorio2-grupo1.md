@@ -1,6 +1,6 @@
 # Telematica
 
-# Practica de laboratorio 02
+# Practica de laboratorio 01
 
 ## Objetivos
 
