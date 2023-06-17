@@ -154,8 +154,11 @@ Escogimos el canal 1 debido a que tiene menos trafico para que la red no tenga c
 13. Realizar pruebas [TRACEROUTE][4_4] a DNS Google desde el Computador conectado por UTP.
 [![1.png](https://i.postimg.cc/5NDN7QcC/1.png)](https://postimg.cc/mtNshDgL)
 14. Realizar pruebas [TRACEROUTE][4_4] a DNS Google desde un dispositivo conectado por WIFI.
+[![1.png](https://i.postimg.cc/zvfbYyk1/1.png)](https://postimg.cc/r0vFSFbh)
 15. Habilitar la gestión remota del dispositivo desde cualquier IP.
+[![Whats-App-Image-2023-06-16-at-10-47-03-PM.jpg](https://i.postimg.cc/FK3N1hKk/Whats-App-Image-2023-06-16-at-10-47-03-PM.jpg)](https://postimg.cc/06kLBRD9)
 16. Realizar un backup de la configuración del equipo.
+[![Whats-App-Image-2023-06-16-at-10-47-12-PM.jpg](https://i.postimg.cc/YSKB5Txr/Whats-App-Image-2023-06-16-at-10-47-12-PM.jpg)](https://postimg.cc/RWRYfs8y)
 
 >Router: [TP-LINK][4_5] -> reiniciar: [Con el Router encendido dejamos presionado el botón reset durante 10 segundos hasta  LED SYS/PWR parpadee rápidamente][4_1] acceder: [conectar con la cadena admin:admin@tplinkwifi.net][4_2]
 
