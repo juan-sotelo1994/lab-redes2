@@ -152,6 +152,7 @@ Escogimos el canal 1 debido a que tiene menos trafico para que la red no tenga c
 [![1.png](https://i.postimg.cc/rwR27D6T/1.png)](https://postimg.cc/87GY6PPX)
 
 13. Realizar pruebas [TRACEROUTE][4_4] a DNS Google desde el Computador conectado por UTP.
+[![1.png](https://i.postimg.cc/5NDN7QcC/1.png)](https://postimg.cc/mtNshDgL)
 14. Realizar pruebas [TRACEROUTE][4_4] a DNS Google desde un dispositivo conectado por WIFI.
 15. Habilitar la gestión remota del dispositivo desde cualquier IP.
 16. Realizar un backup de la configuración del equipo.
