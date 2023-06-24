@@ -102,7 +102,8 @@ Los SFP son equipos de entrada/salida intercambiable en caliente, utilizados pri
 ## 4. [Configurar básica de CPE TP-LINK](#) ✔
 1. Conecte los equipos a la red eléctrica.
 
-  Conectamos el Equipo a la corriente electrica.
+  Conectamos el Equipo a la corriente electrica. <br>
+
 [![Whats-App-Image-2023-06-13-at-6-53-41-PM.jpg](https://i.postimg.cc/pdVz4rRk/Whats-App-Image-2023-06-13-at-6-53-41-PM.jpg)](https://postimg.cc/DSDSb2Wb)
 
 2. [Reiniciar][4_1] el dispositivo a la configuración de fabrica.
