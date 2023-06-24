@@ -206,8 +206,25 @@ Escogimos el canal 1 debido a que tiene menos trafico para que la red no tenga c
 
 ## 8. [Configurar básica de router MikroTik](#) ✔
 1. Conecte los equipos a la red eléctrica.
+
+[![Whats-App-Image-2023-06-23-at-7-24-57-PM.jpg](https://i.postimg.cc/hvg4h5f6/Whats-App-Image-2023-06-23-at-7-24-57-PM.jpg)](https://postimg.cc/R6sxDG1L)
+
 1. [Reinicie][8_1] los dispositivos a la configuración de fabrica.
+
+[![Whats-App-Image-2023-06-23-at-7-59-05-PM.jpg](https://i.postimg.cc/t4DBcZ3x/Whats-App-Image-2023-06-23-at-7-59-05-PM.jpg)](https://postimg.cc/BjL5LvwS)
+
+
+[![Whats-App-Image-2023-06-23-at-7-59-05-PM-1.jpg](https://i.postimg.cc/d3dWN56s/Whats-App-Image-2023-06-23-at-7-59-05-PM-1.jpg)](https://postimg.cc/7JHMfMjd)
+
+# tenemos otra forma de reiniciar el equipo
+
+
+
+
 1. Conecte los equipo mediante un patchcord (latiguillo) al equipo y a internet.
+
+[![Whats-App-Image-2023-06-23-at-7-41-18-PM.jpg](https://i.postimg.cc/kXKZTgYQ/Whats-App-Image-2023-06-23-at-7-41-18-PM.jpg)](https://postimg.cc/dLQ41wY3)
+
 1. [Acceder][8_2] al dispositivo por el puerto 8291 via Winbox.
 1. Cambiar el nombre del dispositivo para identificarlo.
 1. Cambiar la contraseña del usuario "admin" a "Redes_2".
