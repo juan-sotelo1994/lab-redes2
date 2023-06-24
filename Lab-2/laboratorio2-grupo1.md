@@ -101,14 +101,28 @@ Los SFP son equipos de entrada/salida intercambiable en caliente, utilizados pri
 
 ## 4. [Configurar básica de CPE TP-LINK](#) ✔
 1. Conecte los equipos a la red eléctrica.
+
+  Conectamos el Equipo a la corriente electrica.
 [![Whats-App-Image-2023-06-13-at-6-53-41-PM.jpg](https://i.postimg.cc/pdVz4rRk/Whats-App-Image-2023-06-13-at-6-53-41-PM.jpg)](https://postimg.cc/DSDSb2Wb)
+
 2. [Reiniciar][4_1] el dispositivo a la configuración de fabrica.
+
+  Reiniciamos el equipo Presionando el boton que tiene en su parte trasera con el fin de reestablecerlo a su configuracion de fabrica.
 [![Whats-App-Image-2023-06-13-at-6-53-40-PM-1.jpg](https://i.postimg.cc/Vk2PHrqP/Whats-App-Image-2023-06-13-at-6-53-40-PM-1.jpg)](https://postimg.cc/Hr0NrLv6)
 3. Conectar el equipo mediante un patchcord (latiguillo) al equipo y a internet.
+
+Nos conectamos por medio de un patchcord para garantizar la conexion mas estable a nuestro equipo, con el cual haremos la configuracion. 
+
 [![Whats-App-Image-2023-06-13-at-6-53-40-PM.jpg](https://i.postimg.cc/Y2XrzSsM/Whats-App-Image-2023-06-13-at-6-53-40-PM.jpg)](https://postimg.cc/DmX327hM)
 
+Al momento de conectar el patchcord debemos hacerlo en los puertos que sean de LAN, esto hace que podamos ingresar al dispositivo y no tengamos problema alguno. en este caso los puertos de LAN los identificamos por su color naranja.
+
 [![Whats-App-Image-2023-06-13-at-6-53-39-PM.jpg](https://i.postimg.cc/28sVn613/Whats-App-Image-2023-06-13-at-6-53-39-PM.jpg)](https://postimg.cc/crcxSdMN)
+
+
 4. [Acceder][4_2] al dispositivo via protocolo http desde el navegador web.
+
+ya conectados 
 
 [![Whats-App-Image-2023-06-13-at-6-55-13-PM.jpg](https://i.postimg.cc/zvp48347/Whats-App-Image-2023-06-13-at-6-55-13-PM.jpg)](https://postimg.cc/H8c6tWY8)
 
