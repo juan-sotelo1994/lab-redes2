@@ -196,13 +196,13 @@ Escogimos el canal 1 debido a que tiene menos trafico para que la red no tenga c
 ## 7. [Caracterizar el router MikroTik](#) ✔
 |Parámetro||Valor|
 |--|:--:|--:|
-|Marca|-->||
-|Referencia|-->||
-|Velocidad de la CPU|-->||
-|Tamaño de la memoria RAM|-->||
-|Sistema Operativo|-->||
-|Tipo de WIFI|-->||
-|Voltaje DC|-->||
+|Marca|-->|Mikrotik|
+|Referencia|-->|RB951Ui-2HnD|
+|Velocidad de la CPU|-->|	600 MHz-AR9344-DC3A|
+|Tamaño de la memoria RAM|-->|128 MB|
+|Sistema Operativo|-->|RouterOS V 7.9.2|
+|Tipo de WIFI|-->|	802.11b/g/n|
+|Voltaje DC|-->|8 V - 30 V|
 
 ## 8. [Configurar básica de router MikroTik](#) ✔
 1. Conecte los equipos a la red eléctrica.
