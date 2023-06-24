@@ -119,6 +119,8 @@ Al momento de conectar el patchcord debemos hacerlo en los puertos que sean de L
 
 [![Whats-App-Image-2023-06-13-at-6-53-39-PM.jpg](https://i.postimg.cc/28sVn613/Whats-App-Image-2023-06-13-at-6-53-39-PM.jpg)](https://postimg.cc/crcxSdMN)
 
+Conectamos el otro extremo del cable a nuestro equipo en la interfas de Ethernet, dado el caso no tengamos esta interfaz podemos configurarlo por medios inalambricos(WI-FI)
+
 
 4. [Acceder][4_2] al dispositivo via protocolo http desde el navegador web.
 
