@@ -125,15 +125,23 @@ Conectamos el otro extremo del cable a nuestro equipo en la interfas de Ethernet
 
 4. [Acceder][4_2] al dispositivo via protocolo http desde el navegador web.
 
-ya conectados 
+ya conectados al dispositivo ingresamos a nuestro navegador de preferencia y digitamos en la barra del buscador la siguiente direccion = 
+# 192.168.0.1
 
 [![Whats-App-Image-2023-06-13-at-6-55-13-PM.jpg](https://i.postimg.cc/zvp48347/Whats-App-Image-2023-06-13-at-6-55-13-PM.jpg)](https://postimg.cc/H8c6tWY8)
 
+Esto nos llevara a una ventana de inicio de sesion en las cuales nos pedira unas credenciales, las cuales son Admin como usuario y como Password admin (estos valores son predeterminados de fabrica cuando el equipo es nuevo o ha sido reiniciado).
+
 [![Whats-App-Image-2023-06-13-at-6-57-01-PM.jpg](https://i.postimg.cc/Qx9qXFLM/Whats-App-Image-2023-06-13-at-6-57-01-PM.jpg)](https://postimg.cc/HVmMzskG)
+
+Ingresando al equipo encontramos esta interface que nos permite entrar a toda la configuracion de nuestro router.
 
 5. Cambiar el nombre del dispositivo para identificarlo.
 
+nos dirijimos al menu y ingresamos por la opcion de red la cual nos dirije a la siente ventana con la cual podemos cambiar el nombre a nuestro dispositivo para identificarlo en la red LAN.
+
 [![Whats-App-Image-2023-06-13-at-9-07-46-PM.jpg](https://i.postimg.cc/d0XzQ4wx/Whats-App-Image-2023-06-13-at-9-07-46-PM.jpg)](https://postimg.cc/p9f0qQ9f)
+
 6. Configurar la direccionamiento WAN para lograr conectividad con la red externa.
 
 [![Whats-App-Image-2023-06-13-at-9-31-09-PM.jpg](https://i.postimg.cc/25b28YH4/Whats-App-Image-2023-06-13-at-9-31-09-PM.jpg)](https://postimg.cc/3yhgnsQR)
