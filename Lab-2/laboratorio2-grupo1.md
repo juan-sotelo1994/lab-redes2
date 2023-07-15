@@ -150,10 +150,13 @@ nos dirijimos al menu y ingresamos por la opcion de red la cual nos dirije a la 
 
 7. Configurar la direccionamiento LAN con una IP privada, clase C para lograr conectividad con la red interna.
 
+Configuramos la ip de nuestro router para tener un propio segmento de ips para trabajar.
+
 [![1.png](https://i.postimg.cc/ZKPPTcrK/1.png)](https://postimg.cc/crHthf9V)
 
 8. Configurar el [DHCP][dhcp] para que asigne 20 direcciones IP entre [G](#parámetros).200-[G](#parámetros).220.
 
+Asignamos un segmento de red determinado con el componente DHCP para tener asignado desde la ip 192.168.30.200 hasta 192.168.30.220, para tener la capacidad de 20 equipos conectados.
 [![1.png](https://i.postimg.cc/wMLrxmV8/1.png)](https://postimg.cc/BPZpMtkM)
 
 9. Configurar la [WLAN][wlan] de nombre y [PSK](psk) "REDES_4[G](#parámetros)" para lograr conectividad inalámbrica.
