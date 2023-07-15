@@ -157,11 +157,16 @@ Configuramos la ip de nuestro router para tener un propio segmento de ips para t
 8. Configurar el [DHCP][dhcp] para que asigne 20 direcciones IP entre [G](#parámetros).200-[G](#parámetros).220.
 
 Asignamos un segmento de red determinado con el componente DHCP para tener asignado desde la ip 192.168.30.200 hasta 192.168.30.220, para tener la capacidad de 20 equipos conectados.
+
 [![1.png](https://i.postimg.cc/wMLrxmV8/1.png)](https://postimg.cc/BPZpMtkM)
+
 
 9. Configurar la [WLAN][wlan] de nombre y [PSK](psk) "REDES_4[G](#parámetros)" para lograr conectividad inalámbrica.
 
+En este apartqado cambiamos la configuracion del nombre la red inalámbrica al igual que la region y posteriormente lo que es el canal en donde vamos a trabajar, en este caso vamos a utilizar el canal numero 1
 [![1.png](https://i.postimg.cc/prrDqbm0/1.png)](https://postimg.cc/ctqgLzMY)
+
+Tambien cambiamos lo que es la clave de acceso para tener una conexion mas segura como el formato WPA2 para mayor proteccion para las conexiones seguras.
 
 [![1.png](https://i.postimg.cc/wMRnZrPV/1.png)](https://postimg.cc/wRHWsw9y)
 
@@ -173,22 +178,45 @@ Escogimos el canal 1 debido a que tiene menos trafico para que la red no tenga c
 
 11. Realizar pruebas [PING][4_3] a DNS Cloudflare desde el computador conectado por UTP.
 
+Realizamos un ping a los servidores de Cloudflare para verificar la conexion a la red de internet con una conexion fija por medio de cable utp.
+
 [![1.png](https://i.postimg.cc/kGyY0dsW/1.png)](https://postimg.cc/rRK943vp)
 
 12. Realizar pruebas [TRACEROUTE][4_4] a DNS Google desde el router.
 
+Realizamos el mismo proceso del ping esta vez desde la conexion wi-fi para comparar velocidades.
+
 [![1.png](https://i.postimg.cc/rwR27D6T/1.png)](https://postimg.cc/87GY6PPX)
 
 13. Realizar pruebas [TRACEROUTE][4_4] a DNS Google desde el Computador conectado por UTP.
+
+Realizamos un tracer para identificar cuantos saltos realiza  para llegar a los servidores de googles. 
+
 [![1.png](https://i.postimg.cc/5NDN7QcC/1.png)](https://postimg.cc/mtNshDgL)
+
 14. Realizar pruebas [TRACEROUTE][4_4] a DNS Google desde un dispositivo conectado por WIFI.
+
+Esta prueba la realizamos desde otro computador conectado a la red que hemos creado para el laboratorio.
+
 [![1.png](https://i.postimg.cc/zvfbYyk1/1.png)](https://postimg.cc/r0vFSFbh)
+
 15. Habilitar la gestión remota del dispositivo desde cualquier IP.
-[![Whats-App-Image-2023-06-16-at-10-47-03-PM.jpg](https://i.postimg.cc/FK3N1hKk/Whats-App-Image-2023-06-16-at-10-47-03-PM.jpg)](https://postimg.cc/06kLBRD9)
+
+Habilitamos la gestion remota en nuestro router con el puerto 8076 para cuando tengamos que conectarnos desde otra parte de la red podamos hacerlo con la ip de puerta de enlace mas el puerto que le hemos asignado. 
+
+[![1.png](https://i.postimg.cc/QdLrk1Sw/1.png)](https://postimg.cc/2VxJCqs7)
+
 16. Realizar un backup de la configuración del equipo.
+
+Nos vamos al apartado de heraamientas de sistema, y ingresamos al submenu y nos dirijimos a soporte y restablecer, donde podemos generar nuestra copia de seguridad para guardar la configuracion previa que hemos hecho.
+
+[![1.png](https://i.postimg.cc/WzxbZ49v/1.png)](https://postimg.cc/p5YHbPbG)
+
+Haciendo esto vamos a tener una ventana emergente con la cual vamos a ubicar donde vamos a guardar nuestra copia de seguridad.
+
 [![Whats-App-Image-2023-06-16-at-10-47-12-PM.jpg](https://i.postimg.cc/YSKB5Txr/Whats-App-Image-2023-06-16-at-10-47-12-PM.jpg)](https://postimg.cc/RWRYfs8y)
 
->Router: [TP-LINK][4_5] -> reiniciar: [Con el Router encendido dejamos presionado el botón reset durante 10 segundos hasta  LED SYS/PWR parpadee rápidamente][4_1] acceder: [conectar con la cadena admin:admin@tplinkwifi.net][4_2]
+
 
 ## 5. [Caracterizar la ONT HUAWEI](#) ✔
 |Parámetro||Valor|
