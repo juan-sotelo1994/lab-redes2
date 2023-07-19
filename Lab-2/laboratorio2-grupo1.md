@@ -263,19 +263,24 @@ Haciendo esto vamos a tener una ventana emergente con la cual vamos a ubicar don
 ## 8. [Configurar básica de router MikroTik](#) ✔
 1. Conecte los equipos a la red eléctrica.
 
+Tenemos nuestro equipo mikrotik a la corriente.
+
 [![Whats-App-Image-2023-06-23-at-7-24-57-PM.jpg](https://i.postimg.cc/hvg4h5f6/Whats-App-Image-2023-06-23-at-7-24-57-PM.jpg)](https://postimg.cc/R6sxDG1L)
+
 
 1. [Reinicie][8_1] los dispositivos a la configuración de fabrica.
 
+Vamos a reiniciar el equipo de la manera manual usando un clip, o un desarmador de punta fina.
+
+Paso a seguir vamosa insertarlo en el boton de reset pero antes debemos tener desconectado el equipo.
+
 [![Whats-App-Image-2023-06-23-at-7-59-05-PM.jpg](https://i.postimg.cc/t4DBcZ3x/Whats-App-Image-2023-06-23-at-7-59-05-PM.jpg)](https://postimg.cc/BjL5LvwS)
 
+Luego conectamos el equipo a la corriente sin dejar de presionar el boton de reset, para saber que tenemos el equipo reiniciado el equipo va a sonar y van a parpadear las luces, en ese caso debemos dejar de presionar el boton.
 
 [![Whats-App-Image-2023-06-23-at-7-59-05-PM-1.jpg](https://i.postimg.cc/d3dWN56s/Whats-App-Image-2023-06-23-at-7-59-05-PM-1.jpg)](https://postimg.cc/7JHMfMjd)
 
 # tenemos otra forma de reiniciar el equipo
-
-
-
 
 1. Conecte los equipo mediante un patchcord (latiguillo) al equipo y a internet.
 
