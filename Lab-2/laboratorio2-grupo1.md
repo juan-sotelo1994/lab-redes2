@@ -295,16 +295,22 @@ ya dentro del sistema del router nos dirijimos al apartado de new terminal
 
 [![3.png](https://i.postimg.cc/ZRBbQFsM/3.png)](https://postimg.cc/ygKCg9Hm)
 
-y vamos a digitar en la consola el siguiente comando system reboot.
+y vamos a digitar en la consola el siguiente comando system reset.
 
-[![5.png](https://i.postimg.cc/1RWGZ9th/5.png)](https://postimg.cc/RqH67xKX)
+[![Whats-App-Image-2023-07-20-at-10-04-02-AM.jpg](https://i.postimg.cc/Wzx8sQk0/Whats-App-Image-2023-07-20-at-10-04-02-AM.jpg)](https://postimg.cc/V0BnRZ4N)
 
 ya con este comando digitado vamos a confirmar con la Y para aceptar el reseteo del systema. 
 
 [![6.png](https://i.postimg.cc/yYpC9S8Q/6.png)](https://postimg.cc/D8GN30sL)
 
 1. [Acceder][8_2] al dispositivo por el puerto 8291 via Winbox.
+
+[![1.png](https://i.postimg.cc/XYr8rN8d/1.png)](https://postimg.cc/mPGMqsKg)
+
 1. Cambiar el nombre del dispositivo para identificarlo.
+
+[![Whats-App-Image-2023-07-20-at-10-05-28-AM.jpg](https://i.postimg.cc/X71MMJqC/Whats-App-Image-2023-07-20-at-10-05-28-AM.jpg)](https://postimg.cc/F7SC3hjr)
+
 1. Cambiar la contraseña del usuario "admin" a "Redes_2".
 1. Configurar las [interfaces][8_3] y el [bridge][8_4] (conmutador) para dos redes (Interna y externa).
 1. Agregar la [dirección][8_5] de la interfaz externa en el segmento necesario para acceder a internet.
