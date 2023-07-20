@@ -305,7 +305,7 @@ ya con este comando digitado vamos a confirmar con la Y para aceptar el reseteo 
 
 1. [Acceder][8_2] al dispositivo por el puerto 8291 via Winbox.
 
-[![1.png](https://i.postimg.cc/XYr8rN8d/1.png)](https://postimg.cc/mPGMqsKg)
+[![11.png](https://i.postimg.cc/6qcQxG1Z/11.png)](https://postimg.cc/30yhgWhr)
 
 1. Cambiar el nombre del dispositivo para identificarlo.
 
