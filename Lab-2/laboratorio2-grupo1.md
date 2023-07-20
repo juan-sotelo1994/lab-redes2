@@ -286,6 +286,23 @@ Luego conectamos el equipo a la corriente sin dejar de presionar el boton de res
 
 [![Whats-App-Image-2023-06-23-at-7-41-18-PM.jpg](https://i.postimg.cc/kXKZTgYQ/Whats-App-Image-2023-06-23-at-7-41-18-PM.jpg)](https://postimg.cc/dLQ41wY3)
 
+ingresamos al router, esto es factible si conocemos la clave. 
+(lo podemos hacer por medio de winbox o la direccion ip)
+
+[![2.png](https://i.postimg.cc/HxRxWP7m/2.png)](https://postimg.cc/jw6KZcX3)
+
+ya dentro del sistema del router nos dirijimos al apartado de new terminal 
+
+[![3.png](https://i.postimg.cc/ZRBbQFsM/3.png)](https://postimg.cc/ygKCg9Hm)
+
+y vamos a digitar en la consola el siguiente comando system reboot.
+
+[![5.png](https://i.postimg.cc/1RWGZ9th/5.png)](https://postimg.cc/RqH67xKX)
+
+ya con este comando digitado vamos a confirmar con la Y para aceptar el reseteo del systema. 
+
+[![6.png](https://i.postimg.cc/yYpC9S8Q/6.png)](https://postimg.cc/D8GN30sL)
+
 1. [Acceder][8_2] al dispositivo por el puerto 8291 via Winbox.
 1. Cambiar el nombre del dispositivo para identificarlo.
 1. Cambiar la contraseña del usuario "admin" a "Redes_2".
