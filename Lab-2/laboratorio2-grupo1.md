@@ -301,7 +301,7 @@ y vamos a digitar en la consola el siguiente comando system reset.
 
 ya con este comando digitado vamos a confirmar con la Y para aceptar el reseteo del systema. 
 
-[![6.png](https://i.postimg.cc/yYpC9S8Q/6.png)](https://postimg.cc/D8GN30sL)
+[![Whats-App-Image-2023-07-20-at-10-03-46-AM.jpg](https://i.postimg.cc/tTKDjKPW/Whats-App-Image-2023-07-20-at-10-03-46-AM.jpg)](https://postimg.cc/xJPLGF61)
 
 1. [Acceder][8_2] al dispositivo por el puerto 8291 via Winbox.
 
@@ -312,6 +312,9 @@ ya con este comando digitado vamos a confirmar con la Y para aceptar el reseteo 
 [![Whats-App-Image-2023-07-20-at-10-05-28-AM.jpg](https://i.postimg.cc/X71MMJqC/Whats-App-Image-2023-07-20-at-10-05-28-AM.jpg)](https://postimg.cc/F7SC3hjr)
 
 1. Cambiar la contraseña del usuario "admin" a "Redes_2".
+
+[![13.jpg](https://i.postimg.cc/SR9xjvsW/13.jpg)](https://postimg.cc/fSwNr5YL)
+
 1. Configurar las [interfaces][8_3] y el [bridge][8_4] (conmutador) para dos redes (Interna y externa).
 1. Agregar la [dirección][8_5] de la interfaz externa en el segmento necesario para acceder a internet.
 1. Agregar la [dirección][8_5] del bridge (interna) con una IP privada, clase A.
