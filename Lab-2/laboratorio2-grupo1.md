@@ -315,6 +315,7 @@ ya con este comando digitado vamos a confirmar con la Y para aceptar el reseteo 
 
 [![13.jpg](https://i.postimg.cc/SR9xjvsW/13.jpg)](https://postimg.cc/fSwNr5YL)
 
+
 1. Configurar las [interfaces][8_3] y el [bridge][8_4] (conmutador) para dos redes (Interna y externa).
 1. Agregar la [dirección][8_5] de la interfaz externa en el segmento necesario para acceder a internet.
 1. Agregar la [dirección][8_5] del bridge (interna) con una IP privada, clase A.
