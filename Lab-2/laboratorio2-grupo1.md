@@ -305,20 +305,53 @@ ya con este comando digitado vamos a confirmar con la Y para aceptar el reseteo 
 
 1. [Acceder][8_2] al dispositivo por el puerto 8291 via Winbox.
 
+Ingresamos al router por medio de la aplicacion de mikrotik, escogemos nuestro router(en caso de tener mas routers mikrotik con el vamos a trabajar tiene la ip 192.168.88.1).
+
 [![11.png](https://i.postimg.cc/6qcQxG1Z/11.png)](https://postimg.cc/30yhgWhr)
 
 1. Cambiar el nombre del dispositivo para identificarlo.
+
+Vamos a cambiar el nombrer de nuestro dispositivo para tener la certeza de cual equipo vamos a configurar.
 
 [![Whats-App-Image-2023-07-20-at-10-05-28-AM.jpg](https://i.postimg.cc/X71MMJqC/Whats-App-Image-2023-07-20-at-10-05-28-AM.jpg)](https://postimg.cc/F7SC3hjr)
 
 1. Cambiar la contraseña del usuario "admin" a "Redes_2".
 
+Al ingresar nuestro router nos pedira el cambio de contraseña de la sesion administrador, esto con el fin de tener seguridad en nuestro equipo. 
+
 [![13.jpg](https://i.postimg.cc/SR9xjvsW/13.jpg)](https://postimg.cc/fSwNr5YL)
 
+1. Configurar las [interfaces][8_3] y el [bridge][8_4] 
+(conmutador) para dos redes (Interna y externa).
 
-1. Configurar las [interfaces][8_3] y el [bridge][8_4] (conmutador) para dos redes (Interna y externa).
+Vamos a identificar las interfaces con las que trabajaresmos, recordemos que en mikrotik podemos escoger que puerto utilizaremos como WAN o LAN Y Wi-Fi.
+
+[![1.png](https://i.postimg.cc/MTPWN7Fj/1.png)](https://postimg.cc/TLbMWDGR)
+
+Ingresamos a la interfas del bridge para la creacion del mismo ya que no tenenomos ningun puerto asignado a el bridge.
+
+[![brig1.png](https://i.postimg.cc/SKf3tmvX/brig1.png)](https://postimg.cc/XZXsr633)
+
+Creamos el bridge con las interfaces LAN Y Wi-Fi para que tengan el mismo direccionamiento ip.
+
+[![brgi2.png](https://i.postimg.cc/mD6d0kNr/brgi2.png)](https://postimg.cc/KkBrTZWX)  
+
+Vamos a escoger que interfaces vamos a ir agregando a el bridge.
+
+[![agregar-brig.png](https://i.postimg.cc/wMmS2D8z/agregar-brig.png)](https://postimg.cc/0K9W2MyX)
+
+Al finalizar vamosa  tener una lista de los puertos que se han agregado satisfactoriamente.
+
+[![agregados1.png](https://i.postimg.cc/JhzvgfVP/agregados1.png)](https://postimg.cc/TKBt5HPD)
+
 1. Agregar la [dirección][8_5] de la interfaz externa en el segmento necesario para acceder a internet.
+
+[![dhcp-activo.png](https://i.postimg.cc/HxC5jgYt/dhcp-activo.png)](https://postimg.cc/rdQzY7td)
+
+
 1. Agregar la [dirección][8_5] del bridge (interna) con una IP privada, clase A.
+
+
 1. Agregar un [Pool][8_6] en el segmento de la LAN que asigne direcciones entre [GG](#parámetros).100-[GG](#parámetros).200.
 1. Configurar el [DHCP][dhcp] y las rutas estáticas necesarias para lograr conectividad de la red interna con internet.
 1. Configurar la [WLAN][wlan] de nombre y [PSK](psk) "REDES_4[G](#parámetros)" para lograr conectividad inalámbrica.
@@ -326,8 +359,6 @@ ya con este comando digitado vamos a confirmar con la Y para aceptar el reseteo 
 1. Realizar pruebas de diagnostico [PING][4_3] y [TRACEROUTE][4_4] desde un computador conectado via UTP.
 1. Realizar pruebas de diagnostico [PING][4_3] y [TRACEROUTE][4_4] desde un computador conectado via WIFI.
 1. Realizar un backup de la configuración del equipo.
-
->ROUTER: [MikroTik][8_5] -> reiniciar:[Con el botón de reset presionado encendemos el equipo. Dejamos presionado el botón reset durante 2-3 segundos hasta que veamos parpadear alguno de los LEDs de servicio][8_1] Acceder:[instale winbox y acceda por la pestaña "Neighbors" Login:admin y Password:admin][8_2]
 
 ## 9. [Diagrama de Red](#) ✔
 - Realice un diagrama topológico de cada uno de los casos de estudio.
