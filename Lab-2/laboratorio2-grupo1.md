@@ -405,9 +405,40 @@ En las acciones vamos a configurarlos como enmascarado para que tenga la mascara
 
 
 1. Configurar la [WLAN][wlan] de nombre y [PSK](psk) "REDES_4[G](#parámetros)" para lograr conectividad inalámbrica.
+
+Vamos a cambiar la configuracion del apartado de wlan iniciando por el modo en el que vamos a trabajar que sera en ap bridge, seguido de la frecuencia en la que vmoas a trabajar que es de 2,5 GHz. 
+
+la frecuencia la vamos a manejar automatica para que pueda evaluar en que canal hay menor trafico de red, el SSID vamos a trabajar con el nombre de REDES_4G.
+
+[![wifii.png](https://i.postimg.cc/gJr0gG0b/wifii.png)](https://postimg.cc/ftnZLnX8)
+
+Luego vamos a cambiar la seguridad para asignarle una contraseña con las caracteristicas de WPA Y WPA2 para una seguridad fuerte de igual manera la contraseña que vamos a asignar tendra caracteres especiales para tener una seguridad mejor.
+
+[![WIFISEGURIDAD.png](https://i.postimg.cc/KYGwTNGR/WIFISEGURIDAD.png)](https://postimg.cc/NKndqRrc)
+
+Ya podemos ver que la señal esta disponible.
+
+[![se-al.png](https://i.postimg.cc/SN65R56W/se-al.png)](https://postimg.cc/zVfpPxPB)
+
 1. Realizar pruebas de diagnostico [PING][8_7] y [TRACEROUTE][4_4] desde el router.
+
+[![ping.png](https://i.postimg.cc/vmc3rSV2/ping.png)](https://postimg.cc/gwbVds43)
+
+[![tracer-1.png](https://i.postimg.cc/JhMRtZHh/tracer-1.png)](https://postimg.cc/K1q6HKNX)
+
 1. Realizar pruebas de diagnostico [PING][4_3] y [TRACEROUTE][4_4] desde un computador conectado via UTP.
+
+[![ping.png](https://i.postimg.cc/MK64c5dN/ping.png)](https://postimg.cc/F16G8ytV)
+
+[![tracer.png](https://i.postimg.cc/yYLG0RGd/tracer.png)](https://postimg.cc/6yGzX8tJ)
+
 1. Realizar pruebas de diagnostico [PING][4_3] y [TRACEROUTE][4_4] desde un computador conectado via WIFI.
+
+[![ipp.png](https://i.postimg.cc/wTQjd9BJ/ipp.png)](https://postimg.cc/N5Lc6qmf)
+
+[![trracer.png](https://i.postimg.cc/RZPCNGKZ/trracer.png)](https://postimg.cc/YvWBP6d5)
+
+
 1. Realizar un backup de la configuración del equipo.
 
 ## 9. [Diagrama de Red](#) ✔
