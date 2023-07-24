@@ -346,14 +346,64 @@ Al finalizar vamosa  tener una lista de los puertos que se han agregado satisfac
 
 1. Agregar la [dirección][8_5] de la interfaz externa en el segmento necesario para acceder a internet.
 
-[![dhcp-activo.png](https://i.postimg.cc/HxC5jgYt/dhcp-activo.png)](https://postimg.cc/rdQzY7td)
+ya aqui podemos configurar los servicios, iniciando con la configuracion del dhcp en el bridge que hemos creado posteriormente. 
+
+[![dchp-server.png](https://i.postimg.cc/NfwzZxvF/dchp-server.png)](https://postimg.cc/RqXdHKFx)
+
+Ya configurado el Bridge nos va a pedir el direcionamiento al cual vamos a darle la conexion.
+
+[![drireccionamiento-dhcp.png](https://i.postimg.cc/FRTHwK7s/drireccionamiento-dhcp.png)](https://postimg.cc/2bBYZrQP)
+
+Configuramos los servicios de DNS del proveedor de internet 
+
+[![servidor-dns.png](https://i.postimg.cc/FsyHQGfB/servidor-dns.png)](https://postimg.cc/Lnsptt3t)
+
+Tambien vamos a configurar el tiempo de asignacion para las direcciones ip, ya que cuando un equipo se desconecte poder asignarle esa ip a otro dispositivo vamos a poner el intervalo de tiempo para ello. 
+
+[![tiempo-para-ips.png](https://i.postimg.cc/G3kCBtcB/tiempo-para-ips.png)](https://postimg.cc/kDXZznR9)
 
 
 1. Agregar la [dirección][8_5] del bridge (interna) con una IP privada, clase A.
 
+Este paso lo vamos hacer de manera automatica con DHCP setup que etsa en los servicios de dhcp server con esto vamos hacer una configuracion rapida y correcta.
+
+[![dchp-server.png](https://i.postimg.cc/NfwzZxvF/dchp-server.png)](https://postimg.cc/RqXdHKFx)
+
 
 1. Agregar un [Pool][8_6] en el segmento de la LAN que asigne direcciones entre [GG](#parámetros).100-[GG](#parámetros).200.
+
+Para agragar nuestro pool podemos hacerlo de dos formas la primera en el menu de nuestro router mikrotik nos ubicamos en el apartado de ip y ingresamos a la opcion pool. 
+
+ya hecho el despliegue de esta opcion tenemos que poner un nombre a nuestro pool, seguido de la direccion ip de nuestro segmento y vamos a cambiar el utlimo digito para nuestro segmento de trabajo.
+
+[![pool2.png](https://i.postimg.cc/nhgG7Hk5/pool2.png)](https://postimg.cc/rDG4227C)
+
+La otra forma como podemos hacerlo es por medio de la opcion DHCP Server que se encuentra en el menu en la opcion ip, dando las opciones adecuadas para la conectividad podemos configurar de igual manera el pool siendo la manera mas rapida de hacerlo.
+
+[![pool.png](https://i.postimg.cc/8c5Z4Fgd/pool.png)](https://postimg.cc/dkbRtV1D)
+
+
 1. Configurar el [DHCP][dhcp] y las rutas estáticas necesarias para lograr conectividad de la red interna con internet.
+ 
+Ya con el dchp-server y dhcp cliente listos y configurados tenemos nuestra red lista para conectanos a internet, solo nos falta una ultima configuracion para que esto sea posible.
+
+[![dhcp-conf.png](https://i.postimg.cc/RZ16X4Qq/dhcp-conf.png)](https://postimg.cc/sMXg2FLR)
+
+Vamos a cuadrar la firma de firewall que nos es necesaria para tener el acceso a internet 
+
+[![firewall.png](https://i.postimg.cc/3NM0tR64/firewall.png)](https://postimg.cc/k6c54n7q)
+
+
+Vamos a crear el nuevo firewall en el formato que vamos a trabajar y el puerto por el cual vamos a tener comunicacion el cual es el WAM.
+
+[![newfirewall.png](https://i.postimg.cc/qqLB2vdd/newfirewall.png)](https://postimg.cc/vx4dsMBP)
+
+En las acciones vamos a configurarlos como enmascarado para que tenga la mascara de nuestro proveedor y asi poder tener internet. 
+
+[![firewall2.png](https://i.postimg.cc/zGfvSKB2/firewall2.png)](https://postimg.cc/hfHKKJVV)
+
+
+
 1. Configurar la [WLAN][wlan] de nombre y [PSK](psk) "REDES_4[G](#parámetros)" para lograr conectividad inalámbrica.
 1. Realizar pruebas de diagnostico [PING][8_7] y [TRACEROUTE][4_4] desde el router.
 1. Realizar pruebas de diagnostico [PING][4_3] y [TRACEROUTE][4_4] desde un computador conectado via UTP.
