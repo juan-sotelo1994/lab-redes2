@@ -441,6 +441,16 @@ Ya podemos ver que la señal esta disponible.
 
 1. Realizar un backup de la configuración del equipo.
 
+para hacer una copia de la configuracion de nuestro router, nos vamos al apartado de files en el menu del router mikrotik.  
+
+[![1.png](https://i.postimg.cc/nLyxx83x/1.png)](https://postimg.cc/2q7Mdtp9)
+
+Ya en la siguiente ventana le vamos a dar click en la opcion de backup, y se desplegara una ventana donde pondremos el nombre de la backup que vamos a hacer. 
+
+Despues de hacer esto podemos arrastrar el archivo generado en nuestro router al escritorio de nuestra pc para guardarlo en un lugar seguro.
+
+[![back.png](https://i.postimg.cc/FRCjzZJh/back.png)](https://postimg.cc/r0WdY5JH)
+
 ## 9. [Diagrama de Red](#) ✔
 - Realice un diagrama topológico de cada uno de los casos de estudio.
 - Incluya todos los detalles de la red de area local a la que se encuentra conectado.
