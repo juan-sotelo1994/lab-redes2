@@ -251,19 +251,55 @@ ya dentro de la onu podemos cambiar la clave para el ingreso de la misma.
 [![image.png](https://i.postimg.cc/VLYzQdSx/image.png)](https://postimg.cc/F1nM0FVp)
 
 1. Configurar la direccionamiento LAN con una IP privada, clase B para lograr conectividad con la red interna.
+
+[![image.png](https://i.postimg.cc/kGxJqS9S/image.png)](https://postimg.cc/RJZ5TNWC)
+
 1. Configurar el [DHCP][dhcp] para que asigne 50 direcciones IP entre [GG](#parámetros).150-[GG](#parámetros).200.
+
+[![image.png](https://i.postimg.cc/DzJK7GPz/image.png)](https://postimg.cc/B80zgXyW)
+
 1. Reservar una IP fija en la red interna para la MAC del un computador (Servidor).
+
+[![image.png](https://i.postimg.cc/WzKGLQNz/image.png)](https://postimg.cc/QKQ9cYWZ)
+
+
 1. Configurar la [WLAN][wlan] de nombre y [PSK](psk) "REDES_4[G](#parámetros)" para lograr conectividad inalámbrica.
+
+[![image.png](https://i.postimg.cc/bNtbSVY0/image.png)](https://postimg.cc/7fqbpV2b)
+
 1. Realizar pruebas [PING][4_3] a la puerta de enlace desde el computador conectado por UTP (Servidor).
+
+[![image.png](https://i.postimg.cc/sgBVgbVy/image.png)](https://postimg.cc/PCjG63pF)
+
 1. Realizar pruebas [PING][4_3] a la puerta de enlace desde el computador conectado por WIFI (Cliente).
+
+[![image.png](https://i.postimg.cc/3w7bcDf6/image.png)](https://postimg.cc/tsS517jt)
+
 1. Realizar pruebas [PING][6_3] a la puerta de enlace desde un teléfono Movil conectado por WIFI.
+
+[![image.png](https://i.postimg.cc/4ySx8GJL/image.png)](https://postimg.cc/vx5yBpxf)
+
 1. Listar los dispositivos por tipo que aparecen en "DHCP Information".
+
+[![image.png](https://i.postimg.cc/Z5rJNpyD/image.png)](https://postimg.cc/NKjhqyD1)
+
 1. Mapear el puerto 80 del router para que redirija a un servicio [Python][6_4] en un computador.
+
+[![image.png](https://i.postimg.cc/T1L63D60/image.png)](https://postimg.cc/30T6LWW0)
+
 1. Verificar que se puede acceder al servicio (pagina web) desde los dos clientes (móvil y PC).
+
+[![image.png](https://i.postimg.cc/PxNGSwPH/image.png)](https://postimg.cc/bDXFJdxV)
+
 1. Habilitar la gestión remota del dispositivo desde cualquier IP.
+
+[![image.png](https://i.postimg.cc/HLksCjVZ/image.png)](https://postimg.cc/G461FLPG)
+
 1. Realizar un backup de la configuración del equipo.
 
->ONT: [HUAWEI][6_5] -> reiniciar:[Con el Router encendido dejamos presionado el botón reset durante 2 segundos hasta  hasta que los LEDs se apaguen][6_1] acceder: [conectar con la cadena user:twtvu@192.168.1.1][6_2]
+[![image.png](https://i.postimg.cc/bvr8BMB4/image.png)](https://postimg.cc/75FpCBDN)
+
+
 
 ## 7. [Caracterizar el router MikroTik](#) ✔
 |Parámetro||Valor|
