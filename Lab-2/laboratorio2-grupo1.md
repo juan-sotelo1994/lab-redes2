@@ -221,19 +221,35 @@ Haciendo esto vamos a tener una ventana emergente con la cual vamos a ubicar don
 ## 5. [Caracterizar la ONT HUAWEI](#) ✔
 |Parámetro||Valor|
 |--|:--:|--:|
-|Marca|-->||
-|Referencia|-->||
+|Marca|-->|Huawei|
+|Referencia|-->|HS8545M5  |
 |Velocidad de la CPU|-->||
 |Tamaño de la memoria RAM|-->||
-|Sistema Operativo|-->||
-|Tipo de WIFI|-->||
-|Voltaje DC|-->||
+|Sistema Operativo|-->|HarmonyOS (HMOS)|
+|Tipo de WIFI|-->|2 x 2 MIMO 802.11b/g/n|
+|Voltaje DC|-->|12V, 1.5A|
 
 ## 6. [Configurar básica de ONT HUAWEI](#) ✔
 1. Conecte los equipos a la red eléctrica.
 1. [Reinicie][6_1] los dispositivos a la configuración de fabrica.
+
+[![P-20230803-123844-v-HDR-On.jpg](https://i.postimg.cc/3RWXWKb9/P-20230803-123844-v-HDR-On.jpg)](https://postimg.cc/qhVh5drC)
+
 1. Conecte los equipo mediante un patchcord (latiguillo) al equipo y a internet.
 1. [Acceder][6_2] al dispositivo via protocolo http desde el navegador web.
+
+configuramos la direccion ip en nuestra maquina para ingresar a el router.
+
+[![image.png](https://i.postimg.cc/DwVBDbYh/image.png)](https://postimg.cc/BXgTPt07)
+
+nos dirijimos a nuestro navegador y digitamos la siguiente ip 192.168.100.12, y ingresamos con el usuario y la clave predecterminados.
+
+[![image.png](https://i.postimg.cc/tR33TmBK/image.png)](https://postimg.cc/YjSGD8KR)
+
+ya dentro de la onu podemos cambiar la clave para el ingreso de la misma.
+
+[![image.png](https://i.postimg.cc/VLYzQdSx/image.png)](https://postimg.cc/F1nM0FVp)
+
 1. Configurar la direccionamiento LAN con una IP privada, clase B para lograr conectividad con la red interna.
 1. Configurar el [DHCP][dhcp] para que asigne 50 direcciones IP entre [GG](#parámetros).150-[GG](#parámetros).200.
 1. Reservar una IP fija en la red interna para la MAC del un computador (Servidor).
@@ -459,6 +475,9 @@ Despues de hacer esto podemos arrastrar el archivo generado en nuestro router al
 ## 10. [Preguntas de conocimiento](#) ✔
 1. ¿Que diferencias hay entre cada una de las implementaciones? (Ventajas y Desventajas)
 1. ¿Que diferencias existe en el retardo via WIFI vs el retardo via UTP? (Justifique)
+
+
+
 1. ¿Cual es la puerta de enlace a internet? ¿Cual es la ruta por defecto? En el punto (8)
 1. ¿Existe diferencia en las trazas hacia los DNS en internet, para cada medio de transmisión y dispositivo? (Justifique)
 
