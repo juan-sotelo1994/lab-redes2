@@ -231,11 +231,17 @@ Haciendo esto vamos a tener una ventana emergente con la cual vamos a ubicar don
 
 ## 6. [Configurar básica de ONT HUAWEI](#) ✔
 1. Conecte los equipos a la red eléctrica.
+
+[![IMG-20230801-141423.jpg](https://i.postimg.cc/KzvKJxXL/IMG-20230801-141423.jpg)](https://postimg.cc/R3yV0rZV)
+
 1. [Reinicie][6_1] los dispositivos a la configuración de fabrica.
 
 [![P-20230803-123844-v-HDR-On.jpg](https://i.postimg.cc/3RWXWKb9/P-20230803-123844-v-HDR-On.jpg)](https://postimg.cc/qhVh5drC)
 
 1. Conecte los equipo mediante un patchcord (latiguillo) al equipo y a internet.
+
+[![IMG-20230801-141437.jpg](https://i.postimg.cc/rwXK7SXq/IMG-20230801-141437.jpg)](https://postimg.cc/3d18v0xq)
+
 1. [Acceder][6_2] al dispositivo via protocolo http desde el navegador web.
 
 configuramos la direccion ip en nuestra maquina para ingresar a el router.
