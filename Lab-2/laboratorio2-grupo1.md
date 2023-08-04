@@ -511,14 +511,25 @@ Despues de hacer esto podemos arrastrar el archivo generado en nuestro router al
 
 ## 9. [Diagrama de Red](#) ✔
 - Realice un diagrama topológico de cada uno de los casos de estudio.
+
+Red tp-link
+[![tplink.png](https://i.postimg.cc/7hfvgg7F/tplink.png)](https://postimg.cc/Fk5nvkTp)
+
+Red Mikrotik
+[![mikrotik.png](https://i.postimg.cc/mDSppV7c/mikrotik.png)](https://postimg.cc/hzf0fLyg)
+ 
+Red onu Huawei 
+[![onu.png](https://i.postimg.cc/vTrfbHQD/onu.png)](https://postimg.cc/n9LC1x9t)
+
 - Incluya todos los detalles de la red de area local a la que se encuentra conectado.
-- Incluya los saltos conocidos incluyendo el equipo de borde de su ISP.
+
+La red interna a la que nos encontramos conectados tiene como Router principal es el cual el provedor nos deja para hacer la conexion para la salida a internet, de ahi tenemos un cable utp con el cual hacemos la conexion a un switch el cual distribuye internet a los dispositivos como televisores.
 
 ## 10. [Preguntas de conocimiento](#) ✔
 1. ¿Que diferencias hay entre cada una de las implementaciones? (Ventajas y Desventajas)
 1. ¿Que diferencias existe en el retardo via WIFI vs el retardo via UTP? (Justifique)
 
-
+El retardo entre la conexion de wifi y la conexion por medio de cable es 
 
 1. ¿Cual es la puerta de enlace a internet? ¿Cual es la ruta por defecto? En el punto (8)
 1. ¿Existe diferencia en las trazas hacia los DNS en internet, para cada medio de transmisión y dispositivo? (Justifique)
@@ -545,19 +556,3 @@ Despues de hacer esto podemos arrastrar el archivo generado en nuestro router al
 [8_7]:https://wiki.mikrotik.com/wiki/Manual:Tools/Ping
 [8_8]:https://wiki.mikrotik.com/wiki/Manual:Troubleshooting_tools
 
----
-## Mas Recursos
-- [Wiki Mikrotik](https://wiki.mikrotik.com/wiki/Main_Page) (Wiki)
-- [Video-Curso Mikrotik](https://www.youtube.com/watch?v=SLAPzl-LSc0&list=PLf0g2cV4iCkH19_UhaVt0vDn1f9ObumjF) (Wiki)
-- [Direccionamiento IP](https://es.wikipedia.org/wiki/Direcci%C3%B3n_IP) (Wikipedia)
-- [Calculadora IP](https://www.calculator.net/ip-subnet-calculator.html) (Wikipedia)
-
----
-## Evaluación y rúbrica
-- Fecha máximo entrega: 05 de Mayo de 2023
-- Hora de entrega: 11:59pm	
-- Nota máxima: 5.0 
-- Número de actividades: 10
-- Valor de cada actividad: 0.5
-- Ponderación: 20%
-- $\color{#DD69DD}{\text{...Carpe Diem}}$
