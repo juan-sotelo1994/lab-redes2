@@ -527,6 +527,35 @@ La red interna a la que nos encontramos conectados tiene como Router principal e
 
 ## 10. [Preguntas de conocimiento](#) ✔
 1. ¿Que diferencias hay entre cada una de las implementaciones? (Ventajas y Desventajas)
+
+Entre las implementaciones hay varias diferencias junto con sus ventajas y diferencias, hablaremos de cada uno de los routers por separado su costo y su configuracion adecuada. 
+
+## [Tp-link](#) 
+
+Iniciamos con el router Tp-link el cual es muy accesible, lo podemos conseguir en cualquier almacen de tecnologia, su precio puede variar dependiendo de las caracteristicas que nosotros prefiramos. 
+
+En su configuracion como pudimos verlo en los anteriores apartados, su configuracion es bastante intuitiva y sencilla. 
+
+Con respecto a sus entornos como lo son Wi-fi y LAN son bastantes buenos, con Wi-fi tenemos un rango de alcance de 25 metros donde tiene una buena señal con la que puede tener una conexión aguil, a mayor distancia la señal se atenua y la señal se debilita. 
+
+Con su interfaz LAN tenemos 4 puertos en los que podemos conectarnos mediante cable, una interfaz mas segura y mas estable para trabajo mas pesado y que necesite mayor velocidad. 
+
+## [Mikrotik](#)
+
+El router mikrotik es uno de los equipos que tienen unas capacidades bastante fuertes en cuanto a su arquitectura, en cuestion de precios es un poco mas costoso su acceso. pero tenemos equipos que bastante basicos a un precio un poco elevado pero con una calidad inimaginable.
+
+Con respectos a su configuracion, si tiene un poco de complejidad. ya que es un equipo mas especializado su configuracion no podia quedarse atras, dados los indicaciones en los anteriores appartados hemos querido resumir y llevar a claridad la configuracion mas adecuada y sencilla que podemos hacer en estos equipos. 
+
+Tambien como los routers Tp-link posee una interfaz tanto como Wi-fi y LAN, la gran diferencia entre estos radica en su configuracion como ya lo hemos manifestado anteriormente, ya que si no lo hacemos no va a poder dar una conexion a internet, su alcance es semejante a la capacidad del router tp-link en cuanto al Wi-fi.
+
+## [ONU Huawei](#) 
+
+Tenemos la onu Huawei esta es uno de los equipos mas especializados que configuramos ya que no es netamente para la conexion por medio de fibra optica, para dar salida a internet. 
+
+Su precio es un poquito elevado en consideracion a el router tp-link, ya que es una tecnologia como lo deciamos anteriormente mas especializada. Ha su vez su configuracion demanda un poco mas de cuidado dado que es la puerta de enlace a internet y el que nos permite la conexion en nuestros diferentes routers conectados por medio de cable utp. 
+
+Sus interfaces Wi-fi y LAN son similares a los routers que configuramos anteriormente la unica diferencia es el alcance que tiene este en su interface inalambrica, ya que es bastante limitada y alcanza los 12 metros de distancia. 
+
 1. ¿Que diferencias existe en el retardo via WIFI vs el retardo via UTP? (Justifique)
 
 El retardo entre la conexion de wifi y la conexion por medio de cable es 
