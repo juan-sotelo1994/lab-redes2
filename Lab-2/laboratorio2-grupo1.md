@@ -558,10 +558,25 @@ Sus interfaces Wi-fi y LAN son similares a los routers que configuramos anterior
 
 1. ¿Que diferencias existe en el retardo via WIFI vs el retardo via UTP? (Justifique)
 
-El retardo entre la conexion de wifi y la conexion por medio de cable es 
+El retardo entre la conexion de wifi y la conexion por medio de cable tienen sus diferencias en cuanto al retardo, esto puede varias dependiendo de algunos factores.
+
+
+
+## WiFi:
+ Utiliza ondas de radio para transmitir datos a través del aire. Las señales inalámbricas pueden ser más susceptibles a interferencias y obstrucciones en el entorno, como paredes, objetos metálicos, dispositivos electrónicos, otros dispositivos WiFi cercanos, etc. Estas interferencias pueden provocar fluctuaciones en la calidad de la señal y, por lo tanto, aumentar el retardo.
+
+## UTP: 
+Utiliza cables de cobre trenzados para transmitir datos. Los cables UTP proporcionan una conexión más directa y confiable sin las interferencias comunes asociadas con las redes inalámbricas, lo que puede resultar en un retardo más estable y predecible.
+
 
 1. ¿Cual es la puerta de enlace a internet? ¿Cual es la ruta por defecto? En el punto (8)
-1. ¿Existe diferencia en las trazas hacia los DNS en internet, para cada medio de transmisión y dispositivo? (Justifique)
+
+La puerta de enlace que tenemos en los equipos Mikrotik cuando son nuevos o estan reseteados en sus valores de fabrica es
+ > 192.168.88.1 
+
+ [![11.png](https://i.postimg.cc/6qcQxG1Z/11.png)](https://postimg.cc/30yhgWhr)
+
+
 
 [psk]:https://es.wikipedia.org/wiki/Pre-shared_key
 [dhcp]:https://es.wikipedia.org/wiki/Protocolo_de_configuraci%C3%B3n_din%C3%A1mica_de_host
