@@ -41,9 +41,16 @@ Para todos los efectos:
 
 <li>¿Que es una red directamente conectada y cual es su distancia administrativa?.</li>
 
+    R/ Una red directamente conectada es una red que se encuentra conectada físicamente a otro dispositivo o red sin la necesidad de pasar a través de enrutadores o dispositivos intermedios. Esto significa que los dispositivos en la red directamente conectada pueden comunicarse entre sí sin requerir la intervención de un enrutador para determinar la ruta correcta.
+
 <li>¿Que es una ruta estática?.</li>
 
+    R/ Una ruta estática es una entrada de enrutamiento que se configura manualmente en un enrutador o dispositivo de red. En contraste con las rutas dinámicas, que se aprenden automáticamente mediante protocolos de enrutamiento, las rutas estáticas son creadas y mantenidas por un administrador de red.
+
 <li>¿Que es una ruta dinámica?.</li>
+
+    R/ En el contexto de tecnologías de red y enrutamiento, el término "ruta dinámica" se refiere a una ruta que es determinada automáticamente por un protocolo de enrutamiento en lugar de ser configurada manualmente por un administrador de red. Estos protocolos de enrutamiento son utilizados en redes de computadoras para decidir cómo enviar los datos de un punto a otro a través de múltiples dispositivos interconectados, como routers y switches.
+
 </ol>
 
 ## 3. [Configuración básica MikroTik-01](#) ✔
