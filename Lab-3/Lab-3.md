@@ -42,6 +42,7 @@ Para todos los efectos:
 <li>¿Que es una red directamente conectada y cual es su distancia administrativa?.</li>
 
 <li>¿Que es una ruta estática?.</li>
+
 <li>¿Que es una ruta dinámica?.</li>
 </ol>
 
