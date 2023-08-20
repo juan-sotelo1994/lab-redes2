@@ -32,8 +32,15 @@ Para todos los efectos:
 
 <ol type="a">
 <li>¿Que es y como se configura la ruta por defecto?</li>
+
+   R/ Habitualmente la ruta por defecto es una ruta estática definida en el router de borde que tiene como próximo salto el router de acceso del ISP.
+
 <li>¿Que es la distancia administrativa?.</li>
+
+    R/ la distancia administrativa de una ruta es cuando usa Rutas estáticas para hacer una copia de seguridad de una ruta IGP que existe actualmente. Esto normalmente se usa para abrir un enlace de respaldo cuando falla el primario.
+
 <li>¿Que es una red directamente conectada y cual es su distancia administrativa?.</li>
+
 <li>¿Que es una ruta estática?.</li>
 <li>¿Que es una ruta dinámica?.</li>
 </ol>
