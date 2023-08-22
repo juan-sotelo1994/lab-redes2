@@ -76,7 +76,7 @@ Vamos a reiniciar nuestro router con la configuracion de No Default configuratio
 
 Con el siguiente codigo vamos a darle un nombre a nuestro router, con el cual podemos identificarlo.
 
->                /system identity set name=R1
+>  /system identity set name=R1
 
 1. Etiquetar las [interfaces][3_4] a utilizar (2 WAN y una LAN).
 
@@ -84,7 +84,9 @@ creamos la interfaz WAN m y le asignamos el primer puerto.
 
 >  /interface comment ether1 comment="WAN M"
 
-Luego creamos otra interfaz WAN 
+Luego creamos otra interfaz WAN en el segundo puerto 
+
+> /interface comment ether2 comment="WAN 2" 
 
 1. Conecte las interfaces [Ethernet][3_5] etiquetadas a los equipos vecinos.
 1. Agregar un [bridge][3_6] y sus interfaces para la red LAN.
