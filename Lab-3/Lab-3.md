@@ -76,7 +76,7 @@ Vamos a reiniciar nuestro router con la configuracion de No Default configuratio
 
 Con el siguiente codigo vamos a darle un nombre a nuestro router, con el cual podemos identificarlo.
 
->  /system identity set name=R1
+> /system identity set name=R1
 
 1. Etiquetar las [interfaces][3_4] a utilizar (2 WAN y una LAN).
 
@@ -88,14 +88,38 @@ Luego creamos otra interfaz WAN en el segundo puerto
 
 > /interface comment ether2 comment="WAN 2" 
 
-1. Conecte las interfaces [Ethernet][3_5] etiquetadas a los equipos vecinos.
+
 1. Agregar un [bridge][3_6] y sus interfaces para la red LAN.
+
+> /interface bridge add name=bridge_lan
+
+> /interface bridge port add bridge=bridge_lan interface=ether3
+
+> /interface bridge port add bridge=bridge_lan interface=ether4
+
+> /interface bridge port add bridge=bridge_lan interface=ether5 
+
+
 1. Agregar el direccionamiento para las dos redes externas WAN y la red interna LAN.
     1. Agregar la [dirección][5_1] de la interfaz externa que conecta con R2 en el segmento IP 10.11.1.0/24.
-    1. Agregar la [dirección][5_1] de la interfaz externa que conectara redes futuras en el segmento IP 10.10.1.0/24.
-    1. Agregar la [dirección][5_1] del bridge (interna) con una IP 192.168.1.1 privada, clase C.
+
+ > /ip address add address=10.11.1.1/24 interface=ether1 
+
+1. Agregar la [dirección][5_1] de la interfaz externa que conectara redes futuras en el segmento IP 10.10.1.0/24.
+
+> /ip address add address=10.10.1.100/24 interface=ether2
+
+1. Agregar la [dirección][5_1] del bridge (interna) con una IP 192.168.1.1 privada, clase C.
+
+> /ip address add address=192.168.1.1/24 interface=bridge_lan
+
 1. Agregar un [Pool][5_2] en el segmento de la LAN que asigne direcciones entre 192.168.1.100-192.168.1.200.
+
+> /ip pool add name=pool_dhcp_lan ranges=192.168.1.100-192.168.1.200
+
 1. Agregar un servidor [DHCP][5_3] y la información de puerta de enlace y DNS que enviara a los PC conectados a la LAN. 
+
+
 1. Agregar la [ruta por defecto][5_4] 0.0.0.0/0.
 
 ## 4. [Configurar enrutamiento MikroTik-01](#) ✔
