@@ -119,6 +119,12 @@ Luego creamos otra interfaz WAN en el segundo puerto
 
 1. Agregar un servidor [DHCP][5_3] y la información de puerta de enlace y DNS que enviara a los PC conectados a la LAN. 
 
+> /ip dhcp-server add name=dhcp_lan interface=bridge_lan address-pool=pool_dhcp_lan disabled=no
+
+
+> /ip dhcp-server network add address=192.168.1.0/24 gateway=192.168.1.1 dns-server=8.8.8.8,2.2.2.2
+
+
 
 1. Agregar la [ruta por defecto][5_4] 0.0.0.0/0.
 
