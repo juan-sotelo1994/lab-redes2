@@ -124,9 +124,11 @@ Luego creamos otra interfaz WAN en el segundo puerto
 
 > /ip dhcp-server network add address=192.168.1.0/24 gateway=192.168.1.1 dns-server=8.8.8.8,2.2.2.2
 
-
-
 1. Agregar la [ruta por defecto][5_4] 0.0.0.0/0.
+
+> /ip route add dst-address="0.0.0.0/0" gateway="10.10.1.1"
+
+> /ip route add gateway=10.10.1.1
 
 ## 4. [Configurar enrutamiento MikroTik-01](#) ✔
 1. Agregar las [rutas estáticas][8_1] necesarias para que los tres router conozcan la ruta a los otros dos.
