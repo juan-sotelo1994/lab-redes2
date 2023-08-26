@@ -136,60 +136,15 @@ Luego creamos otra interfaz WAN en el segundo puerto
 1. Realizar pruebas de diagnostico [PING][ping] y [TRACERTE][tracert] desde un computador conectado via UTP a los otros router.
 1. Realizar un [backup][8_4] de la configuración del equipo.
 
-## 5. [Configuración básica MikroTik-02](#) ✔
-1. Conecte los equipos a la red eléctrica.
-1. [Reinicie][3_1] los dispositivos a la configuración de fabrica.
-1. Conecte la ultima interfaz [RJ45][rj45] del router al PC de configuración.
-1. [Acceder][3_2] al dispositivo por el puerto 8291 via Winbox.
-1. Cambiar el nombre del dispositivo para [identificarlo][3_3] como <code>R2</code>.
-1. Etiquetar las [interfaces][3_4] a utilizar (2 WAN y una LAN).
-1. Conecte las interfaces [Ethernet][3_5] etiquetadas a los equipos vecinos.
-1. Agregar un [bridge][3_6] y sus interfaces para la red LAN.
-1. Agregar el direccionamiento para las dos redes externas WAN y la red interna LAN.
-    1. Agregar la [dirección][5_1] de la interfaz externa que conecta con R1 en el segmento IP 10.11.1.0/24.
-    1. Agregar la [dirección][5_1] de la interfaz externa que conecta con R3 en el segmento IP 10.22.1.0/24.
-    1. Agregar la [dirección][5_1] del bridge (interna) con una IP 192.168.1.1 privada, clase C.
-1. Agregar un [Pool][5_2] en el segmento de la LAN que asigne direcciones entre 192.168.1.100-192.168.1.200.
-1. Agregar un servidor [DHCP][5_3] y la información de puerta de enlace y DNS que enviara a los PC conectados a la LAN. 
-1. Agregar la [ruta por defecto][5_4] 0.0.0.0/0.
 
-## 6. [Configurar enrutamiento MikroTik-02](#) ✔
-1. Agregar las [rutas estáticas][8_1] necesarias para que los tres router conozcan la ruta a los otros dos.
-1. Realizar pruebas de diagnostico [PING][8_2] y [TRACEROUTE][8_3] desde el router a los otros router.
-1. Realizar pruebas de diagnostico [PING][ping] y [TRACERTE][tracert] desde un computador conectado via UTP a los otros router.
-1. Realizar un [backup][8_4] de la configuración del equipo.
-
-## 7. [Configuración básica MikroTik-03](#) ✔
-1. Conecte los equipos a la red eléctrica.
-1. [Reinicie][3_1] los dispositivos a la configuración de fabrica.
-1. Conecte la ultima interfaz [RJ45][rj45] del router al PC de configuración.
-1. [Acceder][3_2] al dispositivo por el puerto 8291 via Winbox.
-1. Cambiar el nombre del dispositivo para [identificarlo][3_3] como <code>R3</code>.
-1. Etiquetar las [interfaces][3_4] a utilizar (2 WAN y una LAN).
-1. Conecte las interfaces [Ethernet][3_5] etiquetadas a los equipos vecinos.
-1. Agregar un [bridge][3_6] y sus interfaces para la red LAN.
-1. Agregar el direccionamiento para las dos redes externas WAN y la red interna LAN.
-    1. Agregar la [dirección][5_1] de la interfaz externa que conecta con RM en el segmento IP 10.1.1.0/24.
-    1. Agregar la [dirección][5_1] de la interfaz externa que conectara redes futuras en el segmento IP 10.33.1.0/24.
-    1. Agregar la [dirección][5_1] del bridge (interna) con una IP 192.168.1.1 privada, clase C.
-1. Agregar un [Pool][5_2] en el segmento de la LAN que asigne direcciones entre 192.168.1.100-192.168.1.200.
-1. Agregar un servidor [DHCP][5_3] y la información de puerta de enlace y DNS que enviara a los PC conectados a la LAN. 
-1. Agregar la [ruta por defecto][5_4] 0.0.0.0/0.
-
-## 8. [Configurar enrutamiento MikroTik-03](#) ✔
-1. Agregar las [rutas estáticas][8_1] necesarias para que los tres router conozcan la ruta a los otros dos.
-1. Realizar pruebas de diagnostico [PING][8_2] y [TRACEROUTE][8_3] desde el router a los otros router.
-1. Realizar pruebas de diagnostico [PING][ping] y [TRACERTE][tracert] desde un computador conectado via UTP a los otros router.
-1. Realizar un [backup][8_4] de la configuración del equipo.
-
-## 9. [Diagrama de Red](#) ✔
+## 5. [Diagrama de Red](#) ✔
 - Realice un diagrama topológico de cada uno de los casos de estudio.
 - Incluya todos los detalles de la red de area local a la que se encuentra conectado.
 - Incluya los saltos conocidos incluyendo el equipo de borde de su ISP.
 
 ![Arquitectura](../img/lab-03.svg "Arquitectura laboratorio 03")
 
-## 10. [Preguntas de conocimiento](#) ✔
+## 6. [Preguntas de conocimiento](#) ✔
 1. ¿Por qué desde un router no se puede ingresar a las redes LAN de los otros router?
 1. ¿Es posible lograr que los PC conectados a R1 encuentren la ruta a los PC conectados en R3? (procedimiento)
 1. ¿Cual es la puerta de enlace a internet para R1?
