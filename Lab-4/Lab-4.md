@@ -127,6 +127,13 @@ Para todos los efectos:
 
 1. Agregar un [bridge][3_6] y sus interfaces para la red LAN.
 
+> /interface bridge add name=bridge_lan
+
+> /interface bridge port add bridge=bridge_lan interface=ether3
+
+> /interface bridge port add bridge=bridge_lan interface=ether4
+
+> /interface bridge port add bridge=bridge_lan interface=ether5
 
 1. Agregar el direccionamiento para las dos redes externas WAN y la red interna LAN.
     1. Agregar la [dirección][5_1] de la interfaz externa que conecta con R2 en el segmento IP 10.11.1.0/24.
