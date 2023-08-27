@@ -154,6 +154,14 @@ Luego creamos otra interfaz WAN en el segundo puerto
 
 ## 6. [Preguntas de conocimiento](#) ✔
 1. ¿Por qué desde un router no se puede ingresar a las redes LAN de los otros router?
-1. ¿Es posible lograr que los PC conectados a R1 encuentren la ruta a los PC conectados en R3? (procedimiento)
+
+    R/ Las redes LAN son segmentos locales de red en las que se conectan dispositivos dentro de una ubicación específica, como un hogar u oficina. Cada router tiene su propia red LAN, y estas redes están separadas en términos de direcciones IP y subredes. Por lo tanto, cuando intentas acceder a las redes LAN de otros routers desde un router específico, hay varias razones por las que eso generalmente no es posible
+
+1. ¿Es posible lograr que los PC conectados a R1 encuentren la ruta a los PC conectados en R3?
+ (procedimiento)
+
+ R/ no es posible mirar los computadores de R3 debido a que se encuentran en una red aparte y el direccionamiento no nos permite mirarlos 
 1. ¿Cual es la puerta de enlace a internet para R1?
-1. ¿Cuantos saltos internos hace un computador conectado en cada una de las redes LAN a internet? (Justifique)
+
+    R/ la puerta de enlace es 10.11.1.1 para el Router 1
+
