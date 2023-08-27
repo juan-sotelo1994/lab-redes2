@@ -34,6 +34,13 @@ Para todos los efectos:
 
 <ol type="a">
 <li>¿Como funcionan los servidores DHCP y DNS?</li>
+
+    R/Los servidores DHCP (Dynamic Host Configuration Protocol) y DNS (Domain Name System) son componentes esenciales en la infraestructura de redes que ayudan a facilitar la comunicación y la administración de dispositivos en una red. 
+
+    El Protocolo de Configuración Dinámica de Host (DHCP) es utilizado para asignar automáticamente direcciones IP y otros parámetros de configuración a dispositivos en una red. A medida que los dispositivos se conectan a una red, necesitan una dirección IP única para que puedan comunicarse con otros dispositivos y servicios en la red y en Internet.
+
+    El Sistema de Nombres de Dominio (DNS) se utiliza para traducir nombres de dominio legibles para los humanos en direcciones IP numéricas utilizadas por las computadoras para identificar y localizar servidores y servicios en Internet. Sin el DNS, tendríamos que recordar direcciones IP numéricas en lugar de nombres de dominio fáciles de recordar.
+    
 <li>¿Que desventajas tienen las rutas estáticas frente a las dinámicas?.</li>
 <li>¿Cual es el algoritmo y la métrica que implementa RIP?.</li>
 <li>¿Que diferencias hay entre las versiones 1 y 2 de RIP?. (Ventajas y Desventajas)</li>
