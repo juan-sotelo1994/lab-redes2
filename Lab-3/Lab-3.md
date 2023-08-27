@@ -132,60 +132,28 @@ Luego creamos otra interfaz WAN en el segundo puerto
 
 ## 4. [Configurar enrutamiento MikroTik-01](#) ✔
 1. Agregar las [rutas estáticas][8_1] necesarias para que los tres router conozcan la ruta a los otros dos.
+
+> /ip address add address=10.11.1.100/24 interface=ether2
+
+> /ip address add address=10.22.1.100/24 interface=ether2
+
 1. Realizar pruebas de diagnostico [PING][8_2] y [TRACEROUTE][8_3] desde el router a los otros router.
-1. Realizar pruebas de diagnostico [PING][ping] y [TRACERTE][tracert] desde un computador conectado via UTP a los otros router.
-1. Realizar un [backup][8_4] de la configuración del equipo.
+
+[![11.jpg](https://i.postimg.cc/mDC6YpwM/11.jpg)](https://postimg.cc/DJfgFgRy)
+
+[![22.jpg](https://i.postimg.cc/W4r7CFkc/22.jpg)](https://postimg.cc/nsF7QL23)
 
 
 ## 5. [Diagrama de Red](#) ✔
 - Realice un diagrama topológico de cada uno de los casos de estudio.
 - Incluya todos los detalles de la red de area local a la que se encuentra conectado.
-- Incluya los saltos conocidos incluyendo el equipo de borde de su ISP.
 
-![Arquitectura](../img/lab-03.svg "Arquitectura laboratorio 03")
+[![diagrama.png](https://i.postimg.cc/GpQBSGjf/diagrama.png)](https://postimg.cc/sBMDMBqP)
+
+
 
 ## 6. [Preguntas de conocimiento](#) ✔
 1. ¿Por qué desde un router no se puede ingresar a las redes LAN de los otros router?
 1. ¿Es posible lograr que los PC conectados a R1 encuentren la ruta a los PC conectados en R3? (procedimiento)
 1. ¿Cual es la puerta de enlace a internet para R1?
 1. ¿Cuantos saltos internos hace un computador conectado en cada una de las redes LAN a internet? (Justifique)
-
-[rj45]:https://es.wikipedia.org/wiki/RJ-45
-[ping]:https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/ping
-[tracert]:https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/tracert
-
-[3_1]:https://wiki.mikrotik.com/wiki/Manual:Reset
-[3_2]:https://wiki.mikrotik.com/wiki/Manual:Winbox
-[3_3]:https://wiki.mikrotik.com/wiki/Manual:System/identity
-[3_4]:https://wiki.mikrotik.com/wiki/Manual:Interface
-[3_5]:https://wiki.mikrotik.com/wiki/Manual:Interface/Ethernet
-[3_6]:https://wiki.mikrotik.com/wiki/Manual:Interface/Bridge
-
-[5_1]:https://wiki.mikrotik.com/wiki/Manual:IP/Address
-[5_2]:https://wiki.mikrotik.com/wiki/Manual:IP/Pools
-[5_3]:https://wiki.mikrotik.com/wiki/Manual:IP/DHCP_Server
-[5_4]:https://wiki.mikrotik.com/wiki/Manual:IP/Route#Default_route
-
-[8_1]:https://wiki.mikrotik.com/wiki/Manual:IP/Route
-[8_2]:https://wiki.mikrotik.com/wiki/Manual:Tools/Ping
-[8_3]:https://wiki.mikrotik.com/wiki/Manual:Troubleshooting_tools
-[8_4]:https://wiki.mikrotik.com/wiki/Manual:System/Backup
-
----
-## Mas Recursos
-- [Wiki MikroTik](https://wiki.mikrotik.com/wiki/Main_Page) (MikroTik - Wiki)
-- [Rutas estáticas en MikroTik](https://wiki.mikrotik.com/wiki/Manual:Simple_Static_Routing) (MikroTik - Wiki)
-- [Video-Curso MikroTik](https://www.youtube.com/watch?v=SLAPzl-LSc0&list=PLf0g2cV4iCkH19_UhaVt0vDn1f9ObumjF) (Wiki)
-- [Direccionamiento IP](https://es.wikipedia.org/wiki/Direcci%C3%B3n_IP) (Wikipedia)
-- [DHCP](https://es.wikipedia.org/wiki/Protocolo_de_configuraci%C3%B3n_din%C3%A1mica_de_host) (Wikipedia)
-- [Calculadora IP](https://www.calculator.net/ip-subnet-calculator.html) (Wikipedia)
-
----
-## Evaluación y rúbrica
-- Fecha máximo entrega: 05 de Mayo de 2023
-- Hora de entrega: 11:59pm	
-- Nota máxima: 5.0 
-- Número de actividades: 10
-- Valor de cada actividad: 0.5
-- Ponderación: 20%
-- $\color{#DD69DD}{\text{...Carpe Diem}}$
