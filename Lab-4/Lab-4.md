@@ -159,12 +159,20 @@ Para todos los efectos:
 
     > /ip dhcp-server network add address=192.168.11.0/24 gateway=192.168.11.1 dns-server=8.8.8.8,2.2.2.2
 
-
-
-1. Convertir a [estático][5_4] el arrendamiento DHCP para la MAC del PC de configuración.
 1. Cambiar la ip estática del pc de configuración a 192.168.11.10.
+
+> /ip dhcp-server lease add address="192.168.11.10" client-id="R1" server="dhcp_lan" mac-address=[/ip dhcp-server lease get number=0 mac-address]
+
 1. Crear una regla [source NAT][5_5] en el cortafuegos para enmascarar la ip de origen.
+
+> /ip firewall nat add chain=srcnat action=masquerade out-interface="ether1"
+
+
 1. Agregar la [ruta por defecto][5_6] 0.0.0.0/0.
+
+> /ip route add dst-address="0.0.0.0/0" gateway="10.11.1.1"
+
+> /ip route add gateway=10.11.1.1
 
 ## 4. [Configurar enrutamiento MikroTik-01](#) ✔
 1. Agregar [Rip][8_1] a las interfaces conectadas a los router vecinos.
