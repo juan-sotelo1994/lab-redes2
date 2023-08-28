@@ -176,7 +176,22 @@ Para todos los efectos:
 
 ## 4. [Configurar enrutamiento MikroTik-01](#) ✔
 1. Agregar [Rip][8_1] a las interfaces conectadas a los router vecinos.
+
+> /interface bridge add name="loopback"
+
 1. Publicar las [redes][8_2] que las interfaces rip deben compartir para que los tres router conozcan la ruta a los otros dos y a sus redes LAN.
+
+> /ip address add address="10.255.255.100/32" interface="loopback"
+
+> /routing ospf instance set 0 router-id="10.255.255.100"
+
+> routing ospf interface add interface=ether1 cost=10 priority=0
+> /routing ospf interface add interface=ether2 cost=100 priority=1
+
+> /routing ospf network add network=10.22.1.0/24 area=backbone
+> /routing ospf network add network=10.30.1.0/24 area=backbone
+
+
 1. Realizar pruebas de diagnostico [PING][8_3] y [TRACEROUTE][8_4] desde el router a los otros router.
 1. Realizar pruebas de diagnostico [PING][ping] y [TRACERTE][tracert] desde un computador conectado via UTP a los otros router.
 1. Realizar un [backup][8_5] de la configuración del equipo.
