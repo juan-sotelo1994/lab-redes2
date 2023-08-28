@@ -43,10 +43,25 @@ Para todos los efectos:
 
 ## 3. [Configuración básica MikroTik-01](#) ✔
 1. Conecte los equipos a la red eléctrica.
+
+[![Whats-App-Image-2023-06-13-at-6-53-41-PM.jpg](https://i.postimg.cc/pdVz4rRk/Whats-App-Image-2023-06-13-at-6-53-41-PM.jpg)](https://postimg.cc/DSDSb2Wb)
+
 1. [Reinicie][3_1] los dispositivos a la configuración de fabrica.
+
+> /system reset no-defaults
+
 1. Conecte la ultima interfaz [RJ45][rj45] del router al PC de configuración.
+
+[![Whats-App-Image-2023-06-23-at-7-41-18-PM.jpg](https://i.postimg.cc/kXKZTgYQ/Whats-App-Image-2023-06-23-at-7-41-18-PM.jpg)](https://postimg.cc/dLQ41wY3)
+
 1. [Acceder][3_2] al dispositivo por el puerto 8291 via WinBox.
+
+[![2.png](https://i.postimg.cc/HxRxWP7m/2.png)](https://postimg.cc/jw6KZcX3)
+
 1. Cambiar el nombre del dispositivo para [identificarlo][3_3] como <code>R1</code>.
+
+> /system identity set name=R1
+
 1. Etiquetar las [interfaces][3_4] a utilizar (2 WAN y una LAN).
 1. Conecte las interfaces [Ethernet][3_5] etiquetadas a los equipos vecinos.
 1. Agregar un [bridge][3_6] y sus interfaces para la red LAN.
