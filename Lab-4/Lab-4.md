@@ -194,17 +194,22 @@ Para todos los efectos:
 
 1. Realizar pruebas de diagnostico [PING][8_3] y [TRACEROUTE][8_4] desde el router a los otros router.
 1. Realizar pruebas de diagnostico [PING][ping] y [TRACERTE][tracert] desde un computador conectado via UTP a los otros router.
-1. Realizar un [backup][8_5] de la configuración del equipo.
+
+[![11.jpg](https://i.postimg.cc/mDC6YpwM/11.jpg)](https://postimg.cc/DJfgFgRy)
+
+[![22.jpg](https://i.postimg.cc/W4r7CFkc/22.jpg)](https://postimg.cc/nsF7QL23)
+
 
 ## 5. [Diagrama de Red](#) ✔
 - Realice un diagrama topológico de cada uno de los casos de estudio.
-- Incluya todos los detalles de la red de area local a la que se encuentra conectado.
-- Incluya los saltos conocidos incluyendo el equipo de borde de su ISP.
+
+[![DIAGRAMA2.png](https://i.postimg.cc/ry7HqbTT/DIAGRAMA2.png)](https://postimg.cc/F1gpZT1C)
 
 
 
 ## 6. [Preguntas de conocimiento](#) ✔
 1. ¿Por qué no se puede llegar a 10.10.1.100 desde R3 y 10.33.1.1 desde R1? 
-1. ¿Que se necesitaría para lograr llegar a 10.10.1.100 desde R2?
-1. ¿Que se necesitaría para lograr llegar a 10.33.1.1 desde todos los routers?
-1. ¿Permite el protocolo RIP compartir rutas entre diferentes Sistemas Autónomos? (Justifique)
+
+Se logra llegar a R3 por el enrutamiento que se hace mediante el protocolo RIP con el cual podemos ver las redes de cada uno de los router a los cuales nos den acceso 
+1. ¿Que se necesitaría para lograr llegar a 10.11.1.100 desde R2?
+
