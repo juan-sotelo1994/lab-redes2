@@ -102,17 +102,32 @@ Para todos los efectos:
  > /ip dhcp-server add name=dhcp_lan interface=bridge_lan address-pool=pool_dhcp_lan disabled=no
 
 > /ip dhcp-server network add address=192.168.100.0/24 gateway=10.1.1.1 dns-server=8.8.8.8,2.2.2.2
+
 1. Convertir a [estático][5_4] el arrendamiento DHCP para la MAC del PC de configuración.
 
+ > /ip dhcp-server lease add address="192.168.100.10" client-id="R1" server="dhcp_lan" mac-address=[/ip dhcp-server lease get number=0 mac-address]
 
-1. Cambiar la ip estática del pc de configuración a 192.168.1.10.
+
 1. Agregar una regla NAT en el cortafuegos para garantizar el enrutamiento en sistemas de IP publica como internet.
+
+ > /ip dns set servers=8.8.8.8,2.2.2.2 allow-remote-requests=yes
     1. Crear una regla [source NAT][5_5] en el cortafuegos para los paquetes IP que salen hacia la WAN.
     1. Agregar una acción para que la regla anterior permita enmascarar la ip de origen.
+
 1. Agregar una regla NAT en el cortafuegos para mapear ([Port Forwarding][fwd]) un servicio web de la red LAN. 
+
+    > /ip firewall nat add chain=srcnat action=masquerade out-interface="ether1"
     1. Crear una regla [destination NAT][5_6] para el protocolo TCP para los paquetes que llegan desde la WAN por el puerto HTTP 80 .
+
+    > /ip firewall nat add chain=dstnat dst-port=80 protocol=tcp action=dst-nat to-address="192.168.100.10" to-port=8080
+
     1. Agregar una acción para que la regla anterior permita redirigir la solicitud a 192.168.1.10:8080.
+
+    > /ip route add dst-address="192.168.100.10" gateway="10.1.1.1"
     1. levantar un [servicio Web][web] en el pc 192.168.1.10 en el puerto 8080
+
+    
+
 1. Agregar la [ruta por defecto][5_7] 0.0.0.0/0.
 
 ```bash
