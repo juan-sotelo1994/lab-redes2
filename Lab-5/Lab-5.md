@@ -175,13 +175,8 @@ Para todos los efectos:
 
 ## 5. [Diagrama de Red](#) ✔
 - Realice un diagrama topológico de cada uno de los casos de estudio.
-- Incluya todos los detalles de la red de area local a la que se encuentra conectado.
-- Incluya los saltos conocidos incluyendo el equipo de borde de su ISP.
 
-![Arquitectura](../img/lab-05.svg "Arquitectura laboratorio 05")
 
-## 6. [Preguntas de conocimiento](#) ✔
-1. ¿Cuantas rutas OSPF deberían aparecer en cada uno de los routers? 
-1. ¿Cuantos vecinos OSPF aparecen en cada uno de los routers?
-1. ¿Cuantos router internos RI, de borde ABR y de sistema autónomo ASBR hay en el esquema? (identifique)
-1. ¿Cuantas areas multi-acceso (broadcast) y punto a punto (PtP) hay en el esquema? (identifique)
+[![diagrama3.png](https://i.postimg.cc/3RybQMtP/diagrama3.png)](https://postimg.cc/Kk25tWSN)
+
+
