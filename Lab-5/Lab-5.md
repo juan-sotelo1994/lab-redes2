@@ -63,12 +63,36 @@ Para todos los efectos:
 > /system identity set name=R1
 
 1. Etiquetar las [interfaces][3_4] a utilizar (2 WAN y una LAN).
-1. Conecte las interfaces [Ethernet][3_5] etiquetadas a los equipos vecinos.
+
+> /interface comment ether1 comment="WAN M"
+
+> /interface comment ether2 comment="WAN 2"
+
+> /interface comment ether3 comment="LAN"
+
+> /interface comment ether4 comment="LAN"
+
+> /interface comment ether5 comment="LAN"
+
 1. Agregar un [bridge][3_6] y sus interfaces para la red LAN.
+
+> /interface bridge add name=bridge_lan
+
 1. Agregar el direccionamiento para las dos redes externas WAN y la red interna LAN.
     1. Agregar la [dirección][5_1] de la interfaz externa que conecta con R2 en el segmento IP 10.1.1.0/24.
+
+     > /ip address add address=10.1.1.1/24 interface=ether1
+
+    > /ip address add address=10.1.1.100/24 interface=ether1
+
     1. Agregar la [dirección][5_1] de la interfaz externa que conecta con R3 en el segmento IP 10.3.1.0/24.
+  
+  > /ip address add address=10.3.1.1/24 interface=ether2
+
     1. Agregar la [dirección][5_1] del bridge (interna) con una IP 192.168.1.1 privada, clase C.
+
+  > /ip address add address=192.168.1.1/24 interface=bridge_lan
+
 1. Agregar un [Pool][5_2] en el segmento de la LAN que asigne direcciones entre 192.168.1.100-192.168.1.150.
 1. Agregar un servidor [DHCP][5_3] y la información de puerta de enlace y DNS que enviara a los PC conectados a la LAN. 
 1. Convertir a [estático][5_4] el arrendamiento DHCP para la MAC del PC de configuración.
