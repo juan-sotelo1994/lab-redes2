@@ -138,11 +138,30 @@ Para todos los efectos:
 
 ## 4. [Configurar enrutamiento MikroTik-01](#) ✔
 1. Agregar una [dirección de bucle invertido][8_1] (Virtual) que esta siempre activa para identificar el router en la red OSPF.
+
     1. Crear un puente de red llamado "loopback"
+    
+    > /interface bridge add name="loopback"
+
     1. Agregar una dirección 10.255.255.1/32 a ese puente
+
+    > /ip address add address="10.255.255.1/32" interface="loopback"
 1. Habilitar una instancia [OSPF][8_2] identificada con la IP de "loopback"
+ 
+ > /routing ospf instance set 0 router-id="10.1.1.1"
+
+
 1. Agregar las [interfaces][8_3] que compartirán rutas OSPF y configurar las métricas.
+
+ > /routing ospf interface add interface=ether1 cost=10 priority=0
+
+ > /routing ospf interface add interface=ether2 cost=100 priority=1
+
 1. Publicar las [redes][8_4] que las interfaces OSPF deben compartir en el area "Backbone" para que los tres router conozcan la ruta a los otros dos y a sus redes LAN.
+
+ > /routing ospf network add network=10.3.1.100/24 area=backbone
+ > /routing ospf network add network=10.1.1.100/24 area=backbone
+
 1. Realizar pruebas de diagnostico [PING][8_5] y [TRACEROUTE][8_6] desde el router a los otros router.
 1. Realizar pruebas de diagnostico [PING][ping] y [TRACERTE][tracert] desde un computador conectado via UTP a los otros router.
 1. Realizar un [backup][8_7] de la configuración del equipo.
