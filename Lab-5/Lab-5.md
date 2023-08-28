@@ -94,8 +94,17 @@ Para todos los efectos:
   > /ip address add address=192.168.1.1/24 interface=bridge_lan
 
 1. Agregar un [Pool][5_2] en el segmento de la LAN que asigne direcciones entre 192.168.1.100-192.168.1.150.
+
+ > /ip pool add name=pool_dhcp_lan ranges=192.168.1.100-192.168.1.150
+
 1. Agregar un servidor [DHCP][5_3] y la información de puerta de enlace y DNS que enviara a los PC conectados a la LAN. 
+
+ > /ip dhcp-server add name=dhcp_lan interface=bridge_lan address-pool=pool_dhcp_lan disabled=no
+
+> /ip dhcp-server network add address=192.168.100.0/24 gateway=10.1.1.1 dns-server=8.8.8.8,2.2.2.2
 1. Convertir a [estático][5_4] el arrendamiento DHCP para la MAC del PC de configuración.
+
+
 1. Cambiar la ip estática del pc de configuración a 192.168.1.10.
 1. Agregar una regla NAT en el cortafuegos para garantizar el enrutamiento en sistemas de IP publica como internet.
     1. Crear una regla [source NAT][5_5] en el cortafuegos para los paquetes IP que salen hacia la WAN.
